@@ -969,3 +969,39 @@ footer {
 .text-purple {
     color: #d63384 !important;
 }
+
+/* Custom Carousel Caption */
+.demo-caption {
+    bottom: 25px;
+    background: rgba(15, 23, 42, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 15px 25px;
+    max-width: 500px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 767px) {
+    .demo-caption {
+        position: relative !important;
+        right: auto !important;
+        left: auto !important;
+        bottom: auto !important;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        padding: 12px 15px;
+        width: 90%;
+        max-width: 100%;
+        border-radius: 8px;
+    }
+    .demo-caption h5 {
+        font-size: 1.1rem;
+    }
+    .demo-caption p {
+        font-size: 0.85rem;
+    }
+}
