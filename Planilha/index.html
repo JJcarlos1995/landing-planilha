@@ -10,500 +10,526 @@
     <noscript>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     </noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- HERO -->
-    <section class="hero text-center">
-
-        <div class="container">
-            <p style="color: rgb(223, 10, 10);  font-size: 18px; font-weight: bold;">⚠️ Enquanto você lê isso, seu
-                dinheiro está indo embora.</p>
-            <h1>
-                Descubra para onde<br>
-                <span style="color:#22c55e; font-weight: bold;">REALMENTE está indo seu dinheiro</span><br>
-                e volte a dormir tranquilo(a).
+    <section class="hero text-center position-relative overflow-hidden" style="background: #050505;">
+        <!-- Decoradores Glow Effect -->
+        <div class="position-absolute top-0 start-50 translate-middle-x" style="width: 80%; height: 300px; background: radial-gradient(ellipse at top, rgba(34,197,94,0.15), transparent 70%); z-index: 0;"></div>
+        
+        <div class="container position-relative z-1 pt-4">
+            <div class="d-inline-block mb-4 slide-up" style="animation-delay: 0.1s;">
+                <span class="badge bg-dark border border-secondary border-opacity-50 text-light px-3 py-2 rounded-pill shadow-sm" style="letter-spacing: 0.5px; font-weight: 500;">
+                    <span class="text-success me-1">●</span> Atualizado para 2026
+                </span>
+            </div>
+            
+            <h1 class="display-4 fw-bold text-white mb-4 slide-up" style="animation-delay: 0.2s; letter-spacing: -1px; line-height: 1.2;">
+                Descubra Porque seu<br>
+                <span class="position-relative d-inline-block">
+                    <span style="color:#22c55e;">DINHEIRO SIMPLESMENTE SOME</span>
+                    <svg class="position-absolute w-100 start-0 translate-middle-y" style="bottom: -10px; z-index: -1; left: 0;" viewBox="0 0 200 15" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M0 13C50 3 150 3 200 13" stroke="rgba(34,197,94,0.3)" stroke-width="6" stroke-linecap="round"/></svg>
+                </span><br>
+                no final do mês.
             </h1>
-            <p class="mt-4" style="font-size: 18px;">
-                Mais de <strong>1.847 usuários</strong> já assumiram o controle do dinheiro e pararam de viver no
-                vermelho.
+            
+            <p class="mt-4 text-light opacity-75 slide-up" style="font-size: 20px; max-width: 600px; margin: 0 auto; animation-delay: 0.3s;">
+                Mais de <strong class="text-white">1.847 usuários</strong> já pararam de viver no
+                <span style="color: #ef4444; font-weight: bold;">vermelho</span> com nossa planilha inteligente.
             </p>
-            <a href="#comprar" class="btn btn-main btn-lg mt-4">
-                ✓ Quero descobrir agora
-            </a>
-            <p style="margin-top: 20px; font-size: 14px; color: #cfcfcf;">
-                ⏱️ <strong>Oferta termina em:</strong> <span id="countdown" class="countdown">23h59m58s</span> |
-                <strong>Enviamos em 2 minutos por e-mail</strong>
+            
+            <div class="mt-5 slide-up" style="animation-delay: 0.4s;">
+                <a href="#comprar" class="btn btn-success btn-lg fw-bold py-3 px-5 shadow-lg rounded-pill" style="font-size: 18px; transition: transform 0.2s, box-shadow 0.2s; background: #22c55e; border: none; box-shadow: 0 10px 25px rgba(34,197,94,0.4) !important;">
+                    ✓ QUERO DESCOBRIR AGORA
+                </a>
+            </div>
+            
+            <p class="mt-4 slide-up" style="font-size: 14px; color: #94a3b8; animation-delay: 0.5s;">
+                ⏱️ <strong>Oferta termina em:</strong> <span id="countdown" class="countdown px-2 py-1 rounded text-dark fw-bold" style="background: #fbbf24;">23h59m58s</span> <span class="mx-2 opacity-25">|</span>
+                <strong><i class="bi bi-envelope-check text-success"></i> Enviamos em 2 minutos</strong>
             </p>
         </div>
     </section>
 
 
     <!-- PROBLEMA -->
-    <section class="section section-light">
+    <section class="py-5" style="background-color: #0a0a0a; border-top: 1px solid rgba(255,255,255,0.05); position: relative; overflow: hidden;">
+        <!-- Decorador sutil -->
+        <div class="position-absolute top-0 start-50 translate-middle-x" style="width: 100%; height: 1px; background: linear-gradient(90deg, transparent, rgba(34,197,94,0.3), transparent);"></div>
+        
+        <div class="container position-relative z-1">
 
-        <div class="container text-center">
-            <h2 class="title">
-                Por que você sente que o dinheiro desaparece?
-            </h2>
-            <img src="/img/news.png" class="img-fluid planilha-img" alt="Demonstração da planilha" loading="lazy"
-                width="850" height="400" decoding="async">
-        </div>
+            <!-- HEADLINE -->
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-8">
+                    <span class="badge bg-danger bg-opacity-10 text-danger border border-danger border-opacity-25 px-4 py-2 rounded-pill mb-3 text-uppercase shadow-sm" style="letter-spacing: 1px; font-weight: 700;">A Realidade</span>
+                    <h2 class="fw-bold display-6 mb-3 text-white">
+                        Você ganha mais que muita gente…<br>
+                        <span class="text-danger position-relative d-inline-block mt-2">
+                            então por que o dinheiro nunca sobra?
+                            <svg class="position-absolute w-100 start-0 translate-middle-y" style="bottom: -15px; z-index: -1; left: 0;" viewBox="0 0 200 15" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M0 13C50 3 150 3 200 13" stroke="#dc3545" stroke-width="4" stroke-linecap="round" opacity="0.4"/></svg>
+                        </span>
+                    </h2>
+                    <p class="fs-5 mt-4" style="color: #a0aec0;">
+                        Trabalhar muito e não ver a cor do dinheiro no fim do mês é frustrante. O problema não é o seu salário, é a <strong class="text-white">falta de clareza</strong>.
+                    </p>
+                </div>
+            </div>
 
-        <section class="pt-5">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
+            <!-- SINTOMAS DO PROBLEMA (CARDS MODERNOS) -->
+            <div class="row g-4 justify-content-center mb-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 rounded-4 position-relative overflow-hidden p-2" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05) !important; transition: transform 0.3s ease;">
+                        <div class="position-absolute top-0 start-0 w-100" style="height: 3px; background: linear-gradient(90deg, #dc3545, #ff6b6b); opacity: 0.8;"></div>
+                        <div class="card-body p-4 text-center">
+                            <div class="bg-danger bg-opacity-10 text-danger rounded-circle d-inline-flex align-items-center justify-content-center mb-4 mt-2" style="width: 70px; height: 70px; border: 1px solid rgba(220,53,69,0.2);">
+                                <i class="bi bi-wallet2 fs-1"></i>
+                            </div>
+                            <h5 class="fw-bold text-white mb-3">O Dinheiro Some</h5>
+                            <p class="mb-0" style="color: #94a3b8; line-height: 1.6;">Entra na conta e logo desaparece em gastos que você nem lembra quais foram ou para onde foram.</p>
+                        </div>
+                    </div>
+                </div>
 
-                        <p class="fs-4 fw-semibold">
-                            Pesquisa de 2025: <span style="color: rgb(223, 10, 10);">87% das pessoas não fazem ideia
-                                para onde vai o próprio dinheiro</span>.
-                            Você faz?
-                        </p>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 rounded-4 position-relative overflow-hidden p-2" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05) !important; transition: transform 0.3s ease;">
+                        <div class="position-absolute top-0 start-0 w-100" style="height: 3px; background: linear-gradient(90deg, #fd7e14, #ffc107); opacity: 0.8;"></div>
+                        <div class="card-body p-4 text-center">
+                            <div class="bg-warning bg-opacity-10 text-warning rounded-circle d-inline-flex align-items-center justify-content-center mb-4 mt-2" style="width: 70px; height: 70px; border: 1px solid rgba(253,126,20,0.2);">
+                                <i class="bi bi-graph-down-arrow fs-1" style="color: #fd7e14;"></i>
+                            </div>
+                            <h5 class="fw-bold text-white mb-3">Saldo no Vermelho</h5>
+                            <p class="mb-0" style="color: #94a3b8; line-height: 1.6;">No fim do mês, as contas não fecham e você precisa recorrer a cartão de crédito ou cheque especial.</p>
+                        </div>
+                    </div>
+                </div>
 
-                        <p class="fs-5 mt-4">
-                            <strong style="font-size: larger;">O salário entra… e desaparece.</strong>
-                            <br><br>
-                            O mês nem acabou e a conta já está <span
-                                style="color: rgb(223, 10, 10); font-size: larger; font-weight: bold;">zerada.</span> Boletos chegando,
-                            cartão acumulando e a
-                            sensação de trabalhar muito sem ver o dinheiro sobrar.
-                            <br><br>
-
-                        <p class="fw-semibold fs-5 mt-2" style="color: #22c55e;">
-                            MAS TUDO ISSO PODE SER RESOLVIDO.
-                        </p>
-                        <p class="fs-5">
-                            Pessoas comuns, com salários como o seu, mudaram de situação usando uma função
-                            simples: o <strong style="font-size:larger">tomador de decisão</strong> da nossa planilha. Ele te diz na hora
-                            se você pode gastar, se deve economizar ou se está no limite e te dá controle total
-                            do seu dinheiro.
-                        </p>
-
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 rounded-4 position-relative overflow-hidden p-2" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05) !important; transition: transform 0.3s ease;">
+                        <div class="position-absolute top-0 start-0 w-100" style="height: 3px; background: linear-gradient(90deg, #6c757d, #adb5bd); opacity: 0.8;"></div>
+                        <div class="card-body p-4 text-center">
+                            <div class="bg-secondary bg-opacity-25 text-secondary rounded-circle d-inline-flex align-items-center justify-content-center mb-4 mt-2" style="width: 70px; height: 70px; border: 1px solid rgba(173,181,189,0.2);">
+                                <i class="bi bi-arrow-repeat fs-1 text-light"></i>
+                            </div>
+                            <h5 class="fw-bold text-white mb-3">Ciclo Interminável</h5>
+                            <p class="mb-0" style="color: #94a3b8; line-height: 1.6;">Sempre acha que “mês que vem melhora”, mas a desorganização financeira sempre se repete.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+
+            <!-- TRANSIÇÃO PARA SOLUÇÃO -->
+            <div class="row justify-content-center text-center mt-5 mb-4">
+                <div class="col-lg-9">
+                    <div class="p-5 rounded-4 shadow-lg position-relative overflow-hidden" style="background: rgba(34, 197, 94, 0.05); border: 1px solid rgba(34, 197, 94, 0.2); backdrop-filter: blur(10px);">
+                        <i class="bi bi-check-circle-fill text-success fs-1 mb-3 d-inline-block" style="filter: drop-shadow(0 0 10px rgba(34,197,94,0.5));"></i>
+                        <h3 class="fw-bold text-white mb-3 position-relative z-1">A solução é mais simples do que parece</h3>
+                        <p class="fs-5 mb-4 position-relative z-1" style="color: #a0aec0;">Você não precisa de planilhas complexas, precisa de <strong class="text-white">inteligência e controle visual</strong> sobre cada centavo do seu dinheiro.</p>
+                        
+                        <div class="d-flex flex-wrap justify-content-center gap-3 position-relative z-1 mt-4">
+                            <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-50 px-3 py-2 rounded-pill fs-6 fw-normal"><i class="bi bi-eye-fill me-2"></i> Clareza Total</span>
+                            <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-50 px-3 py-2 rounded-pill fs-6 fw-normal"><i class="bi bi-scissors me-2"></i> Corte Inteligente</span>
+                            <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-50 px-3 py-2 rounded-pill fs-6 fw-normal"><i class="bi bi-shield-check me-2"></i> Decisão Segura</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="row justify-content-center text-center mt-5">
+                <div class="col-lg-5">
+                    <p class="fs-5 fw-bold text-success mb-4">
+                        Em poucos minutos, você sai da confusão para o controle.
+                    </p>
+                    <a href="#comprar" class="btn btn-success btn-lg w-100 fw-bold py-3 shadow-lg rounded-pill" style="transition: all 0.3s ease; letter-spacing: 0.5px; background: #22c55e; border: none;">
+                        QUERO ASSUMIR O CONTROLE AGORA <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
     </section>
 
 
     <!-- DEMONSTRAÇÃO -->
-    <section class="section new-section text-center">
-
-        <div class="container">
-            <h2 class="title">
-                Imagine ter controle total do seu dinheiro
+    <section class="section demo-section text-center pb-5">
+        <div class="container position-relative z-1">
+            <div class="d-inline-block mb-3">
+                <span class="badge bg-success bg-opacity-10 text-success px-3 py-2 rounded-pill border border-success border-opacity-25 shadow-sm" style="letter-spacing: 1px; font-weight: 600;"><i class="bi bi-laptop me-1"></i> VISÃO INTERNA</span>
+            </div>
+            <h2 class="title mb-3 fw-bold">
+               <span style="color: #22c55e;"> Controle financeiro com  design premium</span>
             </h2>
-            <img src="/img/analise-financeira.png" class="img-fluid planilha-img" alt="Demonstração da planilha"
-                loading="lazy" width="850" height="500" decoding="async">
+            <p class="fs-5 mb-5" style="color: #a0aec0; max-width: 700px; margin: 0 auto; line-height: 1.6;">
+                Abandone planilhas feias e confusas. Nossa interface foi desenhada para dar clareza instantânea sobre o seu dinheiro, funcionando em qualquer dispositivo.
+            </p>
+            
+            <div class="position-relative mx-auto" style="max-width: 950px;">
+                <!-- Efeitos de brilho no fundo -->
+                <div class="position-absolute top-50 start-50 translate-middle w-100 h-100" style="background: radial-gradient(circle, rgba(34,197,94,0.15) 0%, rgba(0,0,0,0) 70%); z-index: -1;"></div>
+
+                <div class="window-mockup">
+                    <div class="window-header">
+                        <div class="window-dots">
+                            <div class="window-dot dot-red"></div>
+                            <div class="window-dot dot-yellow"></div>
+                            <div class="window-dot dot-green"></div>
+                        </div>
+                        <div class="window-title">Planilha Dinâmica - Visão Geral</div>
+                    </div>
+                    
+                    <div id="demoCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <!-- Indicators -->
+                        <div class="carousel-indicators mb-3">
+                            <button type="button" data-bs-target="#demoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#demoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#demoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner bg-dark">
+                            <div class="carousel-item active" data-bs-interval="4000">
+                                <div class="p-0">
+                                    <img src="/img/Basica.png" alt="Demonstração Básica" class="img-fluid w-100 m-0 rounded-0 shadow-none">
+                                </div>
+                                <div class="carousel-caption d-none d-md-block" style="bottom: 25px; background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 15px 25px; max-width: 500px; margin: 0 auto; left: 0; right: 0; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                                    <h5 class="fw-bold text-white mb-1 d-flex align-items-center justify-content-center gap-2">
+                                        <i class="bi bi-layout-text-window text-success"></i> Visão Básica
+                                    </h5>
+                                    <p class="mb-0 fs-6 text-light opacity-75">Registro simples e direto de todas as suas movimentações.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <div class="p-0">
+                                    <img src="/img/Dinamica.png" alt="Demonstração Dinâmica" class="img-fluid w-100 m-0 rounded-0 shadow-none">
+                                </div>
+                                <div class="carousel-caption d-none d-md-block" style="bottom: 25px; background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 15px 25px; max-width: 500px; margin: 0 auto; left: 0; right: 0; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                                    <h5 class="fw-bold text-white mb-1 d-flex align-items-center justify-content-center gap-2">
+                                        <i class="bi bi-pie-chart-fill text-warning"></i> Dashboard Dinâmico
+                                    </h5>
+                                    <p class="mb-0 fs-6 text-light opacity-75">Gráficos interativos que mostram para onde seu dinheiro vai.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <div class="p-0">
+                                    <img src="/img/PremiumMockup2.png" alt="Demonstração Premium" class="img-fluid w-100 m-0 rounded-0 shadow-none">
+                                </div>
+                                <div class="carousel-caption d-none d-md-block" style="bottom: 25px; background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 15px 25px; max-width: 500px; margin: 0 auto; left: 0; right: 0; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                                    <h5 class="fw-bold text-white mb-1 d-flex align-items-center justify-content-center gap-2">
+                                        <i class="bi bi-lightning-charge-fill text-info"></i> Recursos Premium
+                                    </h5>
+                                    <p class="mb-0 fs-6 text-light opacity-75">Planejamento anual e tomador de decisão inteligente.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demoCarousel" data-bs-slide="prev" style="width: 8%; opacity: 1;">
+                            <span class="carousel-control-prev-icon bg-dark border border-secondary p-3 rounded-circle shadow nav-btn-hover" aria-hidden="true" style="background-size: 1.2rem; width: 2.5rem; height: 2.5rem; transition: 0.2s;"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demoCarousel" data-bs-slide="next" style="width: 8%; opacity: 1;">
+                            <span class="carousel-control-next-icon bg-dark border border-secondary p-3 rounded-circle shadow nav-btn-hover" aria-hidden="true" style="background-size: 1.2rem; width: 2.5rem; height: 2.5rem; transition: 0.2s;"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Decoradores visuais fora do carrossel -->
+                <div class="position-absolute top-50 start-0 translate-middle d-none d-lg-block" style="width: 250px; height: 250px; background: #22c55e; filter: blur(100px); opacity: 0.2; z-index: -1;"></div>
+                <div class="position-absolute top-50 end-0 translate-middle d-none d-lg-block" style="width: 200px; height: 200px; background: #0dcaf0; filter: blur(100px); opacity: 0.15; z-index: -1;"></div>
+            </div>
         </div>
 
         <!-- BENEFÍCIOS -->
-        <section class="section">
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-md-3">
-                        <div class="card-custom">
-                            <h5>💰 Tomador de decisão inteligente</h5>
-                            <p>
-                                Saiba exatamente quando pode gastar ou economizar,
-                                evitando arrependimentos e dívidas impulsivas.
+        <section class="section mt-4">
+            <div class="container position-relative z-1">
+                <div class="row g-4 justify-content-center">
+                    
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 rounded-4 text-start p-4 feature-card" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05) !important; transition: all 0.3s ease;">
+                            <div class="mb-4 d-inline-flex align-items-center justify-content-center rounded-3" style="width: 50px; height: 50px; background: rgba(34, 197, 94, 0.1); border: 1px solid rgba(34, 197, 94, 0.2);">
+                                <i class="bi bi-cpu text-success fs-4"></i>
+                            </div>
+                            <h5 class="fw-bold text-white mb-3" style="font-size: 18px;">Decisão Inteligente</h5>
+                            <p class="text-light opacity-75 mb-4" style="font-size: 14px; line-height: 1.6;">
+                                Saiba exatamente quando pode gastar ou economizar, evitando arrependimentos e dívidas impulsivas.
+                            </p>
+                            <div class="mt-auto">
+                                <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-25 rounded-pill px-3 py-1" style="font-size: 11px; font-weight: 700; letter-spacing: 0.5px;">💎 PREMIUM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 rounded-4 text-start p-4 feature-card" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05) !important; transition: all 0.3s ease;">
+                            <div class="mb-4 d-inline-flex align-items-center justify-content-center rounded-3" style="width: 50px; height: 50px; background: rgba(13, 202, 240, 0.1); border: 1px solid rgba(13, 202, 240, 0.2);">
+                                <i class="bi bi-eye text-info fs-4"></i>
+                            </div>
+                            <h5 class="fw-bold text-white mb-3" style="font-size: 18px;">Visão 360º</h5>
+                            <p class="text-light opacity-75 mb-0" style="font-size: 14px; line-height: 1.6;">
+                                Veja todos os seus gastos organizados em um único lugar, com categorias claras e relatórios automáticos.
                             </p>
                         </div>
                     </div>
 
-                    <div class="col-md-3">
-                        <div class="card-custom">
-                            <h5>📊 Visão 360º dos seus gastos</h5>
-                            <p>
-                                Veja todos os seus gastos organizados em um único lugar,
-                                com categorias claras e relatórios mensais automáticos.
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 rounded-4 text-start p-4 feature-card" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05) !important; transition: all 0.3s ease;">
+                            <div class="mb-4 d-inline-flex align-items-center justify-content-center rounded-3" style="width: 50px; height: 50px; background: rgba(255, 193, 7, 0.1); border: 1px solid rgba(255, 193, 7, 0.2);">
+                                <i class="bi bi-graph-down-arrow text-warning fs-4"></i>
+                            </div>
+                            <h5 class="fw-bold text-white mb-3" style="font-size: 18px;">Anti-Dívidas</h5>
+                            <p class="text-light opacity-75 mb-0" style="font-size: 14px; line-height: 1.6;">
+                                Crie um plano real e executável para eliminar suas dívidas, com metas alcançáveis e acompanhamento.
                             </p>
                         </div>
                     </div>
 
-                    <div class="col-md-3">
-                        <div class="card-custom">
-                            <h5>📉 Plano para acabar com dívidas</h5>
-                            <p>
-                                Crie um plano real e executável para eliminar suas dívidas,
-                                com metas alcançáveis e acompanhamento visual.
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 rounded-4 text-start p-4 feature-card" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05) !important; transition: all 0.3s ease;">
+                            <div class="mb-4 d-inline-flex align-items-center justify-content-center rounded-3" style="width: 50px; height: 50px; background: rgba(214, 51, 132, 0.1); border: 1px solid rgba(214, 51, 132, 0.2);">
+                                <i class="bi bi-rocket-takeoff fs-4" style="color: #d63384;"></i>
+                            </div>
+                            <h5 class="fw-bold text-white mb-3" style="font-size: 18px;">Planeje Metas</h5>
+                            <p class="text-light opacity-75 mb-4" style="font-size: 14px; line-height: 1.6;">
+                                Organize metas como viagens, carro ou casa, com projeções realistas e motivação constante.
                             </p>
+                            <div class="mt-auto">
+                                <span class="badge rounded-pill px-3 py-1" style="background: rgba(214, 51, 132, 0.15); color: #d63384; border: 1px solid rgba(214, 51, 132, 0.3); font-size: 11px; font-weight: 700; letter-spacing: 0.5px;">⭐ DINÂMICA / PREMIUM</span>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-md-3">
-                        <div class="card-custom">
-                            <h5>🚀 Planeje e conquiste suas metas</h5>
-                            <p>
-                                Organize metas como viagens, carro ou casa própria,
-                                com projeções realistas e motivação constante.
-                            </p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
     </section>
 
     <!-- DEPOIMENTOS -->
-    <section class="section section-light">
+    <section class="section" style="background-color: #050505; border-top: 1px solid rgba(255,255,255,0.05);">
 
         <div class="container">
-            <h2 class="title text-center">
+            <h2 class="title text-center text-white mb-5">
                 Quem usa recomenda
             </h2>
-            <div class="carousel-wrapper">
+            <div class="carousel-wrapper mt-0">
                 <div class="carousel-track">
-                    <div class="depoimento">
+                    <div class="depoimento text-start" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05); color: #cfcfcf;">
                         <div class="depoimento-header">
-                            <img src="/img/mariana.jpg" class="foto-depoimento" alt="Mariana A." loading="lazy"
-                                width="40" height="40" decoding="async">
+                            <img src="/img/mariana.jpg" class="foto-depoimento border border-success border-opacity-50" alt="Mariana A." loading="lazy" width="40" height="40" decoding="async">
                             <div>
-                                <strong>Mariana A.</strong>
-                                <small style="color: #22c55e;">✓ verificado</small>
+                                <strong class="text-white">Mariana A.</strong>
+                                <small style="color: #22c55e;"><i class="bi bi-check-circle-fill"></i> verificado</small>
+                                <div style="margin-top: 5px;">
+                                    <span style="background: rgba(34, 197, 94, 0.15); color: #22c55e; padding: 4px 8px; border-radius: 3px; font-size: 11px; font-weight: bold; border: 1px solid rgba(34, 197, 94, 0.3);">📊 Planilha Dinâmica</span>
+                                </div>
                             </div>
                         </div>
-                        <p>"Economizo R$ 850/mês agora. No primeiro mês já vi para onde meu dinheiro estava indo.
-                            Recomendo demais!"</p>
-                        <small style="color: #22c55e;">⭐⭐⭐⭐⭐</small>
+                        <p class="mt-3" style="font-size: 14px; line-height: 1.6;">"Economizo R$ 850/mês agora. No primeiro mês já vi para onde meu dinheiro estava indo. Recomendo demais!"</p>
+                        <small style="color: #fbbf24; font-size: 14px;">★★★★★</small>
                     </div>
-                    <div class="depoimento">
+                    
+                    <div class="depoimento text-start" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05); color: #cfcfcf;">
                         <div class="depoimento-header">
-                            <img src="/img/carlos.jpg" class="foto-depoimento" alt="Carlos S." loading="lazy" width="40"
-                                height="40" decoding="async">
+                            <img src="/img/carlos.jpg" class="foto-depoimento border border-warning border-opacity-50" alt="Carlos S." loading="lazy" width="40" height="40" decoding="async">
                             <div>
-                                <strong>Carlos S.</strong>
-                                <small style="color: #22c55e;">✓ verificado</small>
+                                <strong class="text-white">Carlos S.</strong>
+                                <small style="color: #22c55e;"><i class="bi bi-check-circle-fill"></i> verificado</small>
+                                <div style="margin-top: 5px;">
+                                    <span style="background: rgba(255, 193, 7, 0.15); color: #ffc107; padding: 4px 8px; border-radius: 3px; font-size: 11px; font-weight: bold; border: 1px solid rgba(255, 193, 7, 0.3);">💎 Planilha Premium</span>
+                                </div>
                             </div>
                         </div>
-                        <p>"Consegui pagar uma dívida de R$ 2.500 em 3 meses. A planilha me mostrou exatamente onde
-                            estavam meus vazamentos."</p>
-                        <small style="color: #22c55e;">⭐⭐⭐⭐⭐</small>
+                        <p class="mt-3" style="font-size: 14px; line-height: 1.6;">"Consegui pagar uma dívida de R$ 2.500 em 3 meses. A planilha me mostrou exatamente onde estavam meus vazamentos."</p>
+                        <small style="color: #fbbf24; font-size: 14px;">★★★★★</small>
                     </div>
-                    <div class="depoimento">
+                    
+                    <div class="depoimento text-start" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05); color: #cfcfcf;">
                         <div class="depoimento-header">
-                            <img src="/img/fernanda.jpg" class="foto-depoimento" alt="Fernanda T." loading="lazy"
-                                width="40" height="40" decoding="async">
+                            <img src="/img/fernanda.jpg" class="foto-depoimento border border-success border-opacity-50" alt="Fernanda T." loading="lazy" width="40" height="40" decoding="async">
                             <div>
-                                <strong>Fernanda T.</strong>
-                                <small style="color: #22c55e;">✓ verificado</small>
+                                <strong class="text-white">Fernanda T.</strong>
+                                <small style="color: #22c55e;"><i class="bi bi-check-circle-fill"></i> verificado</small>
+                                <div style="margin-top: 5px;">
+                                    <span style="background: rgba(34, 197, 94, 0.15); color: #22c55e; padding: 4px 8px; border-radius: 3px; font-size: 11px; font-weight: bold; border: 1px solid rgba(34, 197, 94, 0.3);">📊 Planilha Dinâmica</span>
+                                </div>
                             </div>
                         </div>
-                        <p>"Comprei a moto que sempre sonhei em 7 meses. Sem essa planilha seria impossível. Super
-                            recomendo!"</p>
-                        <small style="color: #22c55e;">⭐⭐⭐⭐⭐</small>
+                        <p class="mt-3" style="font-size: 14px; line-height: 1.6;">"Comprei a moto que sempre sonhei em 12 meses. Sem essa planilha seria impossível. Super recomendo!"</p>
+                        <small style="color: #fbbf24; font-size: 14px;">★★★★★</small>
                     </div>
-                    <div class="depoimento">
+                    
+                    <div class="depoimento text-start" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05); color: #cfcfcf;">
                         <div class="depoimento-header">
-                            <img src="/img/Lucas.jpg" class="foto-depoimento" alt="Lucas O." loading="lazy" width="40"
-                                height="40" decoding="async">
+                            <img src="/img/Lucas.jpg" class="foto-depoimento border border-info border-opacity-50" alt="Lucas O." loading="lazy" width="40" height="40" decoding="async">
                             <div>
-                                <strong>Lucas O.</strong>
-                                <small style="color: #22c55e;">✓ verificado</small>
+                                <strong class="text-white">Lucas O.</strong>
+                                <small style="color: #22c55e;"><i class="bi bi-check-circle-fill"></i> verificado</small>
+                                <div style="margin-top: 5px;">
+                                    <span style="background: rgba(13, 202, 240, 0.15); color: #0dcaf0; padding: 4px 8px; border-radius: 3px; font-size: 11px; font-weight: bold; border: 1px solid rgba(13, 202, 240, 0.3);">✓ Planilha Básica</span>
+                                </div>
                             </div>
                         </div>
-                        <p>"Não sou tech, e ainda assim consegui usar em 5 minutos. Valeu cada centavo investido aqui."
-                        </p>
-                        <small style="color: #22c55e;">⭐⭐⭐⭐⭐</small>
+                        <p class="mt-3" style="font-size: 14px; line-height: 1.6;">"Não sou tech, e ainda assim consegui usar em 5 minutos. Valeu cada centavo investido aqui."</p>
+                        <small style="color: #fbbf24; font-size: 14px;">★★★★★</small>
                     </div>
-                    <div class="depoimento">
+                    
+                    <div class="depoimento text-start" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05); color: #cfcfcf;">
                         <div class="depoimento-header">
-                            <img src="/img/juliana.jpg" class="foto-depoimento" alt="Juliana M." loading="lazy"
-                                width="40" height="40" decoding="async">
+                            <img src="/img/juliana.jpg" class="foto-depoimento border border-success border-opacity-50" alt="Juliana M." loading="lazy" width="40" height="40" decoding="async">
                             <div>
-                                <strong>Juliana M.</strong>
-                                <small style="color: #22c55e;">✓ verificado</small>
+                                <strong class="text-white">Juliana M.</strong>
+                                <small style="color: #22c55e;"><i class="bi bi-check-circle-fill"></i> verificado</small>
+                                <div style="margin-top: 5px;">
+                                    <span style="background: rgba(34, 197, 94, 0.15); color: #22c55e; padding: 4px 8px; border-radius: 3px; font-size: 11px; font-weight: bold; border: 1px solid rgba(34, 197, 94, 0.3);">📊 Planilha Dinâmica</span>
+                                </div>
                             </div>
                         </div>
-                        <p>"Estou gerando R$ 1.200/mês em renda extra agora que enxergo melhor minhas contas. Mudou
-                            TUDO!"</p>
-                        <small style="color: #22c55e;">⭐⭐⭐⭐⭐</small>
+                        <p class="mt-3" style="font-size: 14px; line-height: 1.6;">"Estou gerando R$ 1.200/mês em renda extra agora que enxergo melhor minhas contas. Mudou TUDO!"</p>
+                        <small style="color: #fbbf24; font-size: 14px;">★★★★★</small>
                     </div>
-                    <div class="depoimento">
+                    
+                    <div class="depoimento text-start" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05); color: #cfcfcf;">
                         <div class="depoimento-header">
-                            <img src="/img/Rafael.jpg" class="foto-depoimento" alt="Rafael D." loading="lazy" width="40"
-                                height="40" decoding="async">
+                            <img src="/img/Rafael.jpg" class="foto-depoimento border border-warning border-opacity-50" alt="Rafael D." loading="lazy" width="40" height="40" decoding="async">
                             <div>
-                                <strong>Rafael D.</strong>
-                                <small style="color: #22c55e;">✓ verificado</small>
+                                <strong class="text-white">Rafael D.</strong>
+                                <small style="color: #22c55e;"><i class="bi bi-check-circle-fill"></i> verificado</small>
+                                <div style="margin-top: 5px;">
+                                    <span style="background: rgba(255, 193, 7, 0.15); color: #ffc107; padding: 4px 8px; border-radius: 3px; font-size: 11px; font-weight: bold; border: 1px solid rgba(255, 193, 7, 0.3);">💎 Planilha Premium</span>
+                                </div>
                             </div>
                         </div>
-                        <p>"Eliminei R$ 3.200 em gastos desnecessários em um semestre. Agora tenho fundo de emergência
-                            de R$ 8k."</p>
-                        <small style="color: #22c55e;">⭐⭐⭐⭐⭐</small>
+                        <p class="mt-3" style="font-size: 14px; line-height: 1.6;">"Eliminei R$ 3.200 em gastos desnecessários em um semestre. Agora tenho fundo de emergência de R$ 8k."</p>
+                        <small style="color: #fbbf24; font-size: 14px;">★★★★★</small>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- GARANTIA -->
-    <section class="section" style="background: rgba(34, 197, 94, 0.1);">
-        <div class="container text-center">
-            <h2 class="title" style="color: #22c55e;">🛡️ GARANTIA DE 30 DIAS - RISCO ZERO</h2>
-            <p class="fs-5 mb-4">
-                Teste por 30 dias. Se não vir resultados, devolvemos <strong>100% do seu dinheiro</strong>.
-                <br><strong>Sem burocracia e sem pedir explicações.</strong>
-            </p>
-            <p style="font-size: 14px; color: #666;">
-                Você não corre risco nenhum – só está a um clique de tomar o controle das suas finanças.
-            </p>
         </div>
     </section>
 
     <!-- URGÊNCIA -->
-    <section class="section bg-danger text-white text-center">
-        <div class="container">
-            <h2 class="title text-white" style="font-size: clamp(20px, 5vw, 32px);">⏰ OFERTA RELÂMPAGO - Termina em
-                <span id="countdown2" class="countdown">23h59m58s</span>
+    <section class="section text-white text-center position-relative overflow-hidden" style="background: radial-gradient(circle at center, #7f1d1d 0%, #450a0a 100%);">
+        <!-- Decorador -->
+        <div class="position-absolute top-50 start-50 translate-middle" style="width: 300px; height: 300px; background: #ef4444; filter: blur(120px); opacity: 0.2; z-index: 0;"></div>
+        
+        <div class="container position-relative z-1">
+            <h2 class="title text-white mb-4" style="font-size: clamp(20px, 5vw, 32px);">
+                <i class="bi bi-alarm me-2 text-warning"></i> OFERTA RELÂMPAGO - Termina em
+                <span id="countdown2" class="countdown text-dark px-2 rounded-2 ms-2" style="background: #fbbf24;">23h59m58s</span>
             </h2>
             <p class="fs-4 fw-bold mb-4" style="font-size: clamp(16px, 4vw, 24px);">
-                20% OFF exclusiva para os <strong>100 primeiros de hoje</strong> – promoção relâmpago
+                20% OFF exclusiva para os <strong class="text-warning">100 primeiros de hoje</strong>
             </p>
-            <p class="fs-5 mb-3" style="font-size: clamp(14px, 3.5vw, 18px);">Só <span
-                    style="background: rgba(0,0,0,0.3); padding: 5px 10px; border-radius: 5px;"><strong>17 vagas
-                        restantes</strong></span> nessa oferta exclusiva – quando acabar, volta ao preço normal</p>
-            <p class="mb-4" style="font-size: clamp(13px, 3vw, 16px);">
+            <p class="fs-5 mb-3" style="font-size: clamp(14px, 3.5vw, 18px);">Só <span class="bg-dark bg-opacity-50 px-3 py-1 rounded-pill border border-danger fw-bold text-white">17 vagas restantes</span> nessa oferta exclusiva</p>
+            <p class="mb-5 text-light opacity-75" style="font-size: clamp(13px, 3vw, 16px);">
                 Depois disso, volta ao preço normal.
             </p>
-            <a href="#comprar" class="btn btn-light btn-lg mt-3"
-                style="color: #f0f9f0;; font-weight: bold; width: 100%; max-width: 350px; font-size: clamp(12px, 3vw, 16px);">
-                🔥 APROVEITAR A OFERTA AGORA
+            <a href="#comprar" class="btn btn-warning btn-lg fw-bold text-dark px-5 py-3 rounded-pill shadow-lg" style="transition: transform 0.2s; font-size: clamp(14px, 3vw, 18px);">
+                🔥 QUERO APROVEITAR A OFERTA
             </a>
         </div>
     </section>
 
-    <!-- DÚVIDAS -->
-    <section class="section new-section">
-        <div class="container" style="max-width:800px; margin:auto;">
-
-            <h2 class="title text-center">Dúvidas frequentes</h2>
-            <hr class="linha-titulo">
-
-            <div class="accordion" id="faq">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#pergunta1">
-                            A planilha funciona no celular?
-                        </button>
-                    </h2>
-                    <div id="pergunta1" class="accordion-collapse collapse show" data-bs-parent="#faq">
-                        <div class="accordion-body">
-                            Sim. Você pode usar em qualquer dispositivo com o Google Planilhas ou Excel.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#pergunta2">
-                            Preciso entender de Excel para usar a planilha?
-                        </button>
-                    </h2>
-                    <div id="pergunta2" class="accordion-collapse collapse" data-bs-parent="#faq">
-                        <div class="accordion-body">
-                            Não. A planilha foi criada para ser simples e intuitiva. Basta inserir suas informações.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#pergunta3">
-                            Como recebo a planilha após a compra?
-                        </button>
-                    </h2>
-                    <div id="pergunta3" class="accordion-collapse collapse" data-bs-parent="#faq">
-                        <div class="accordion-body">
-                            Após a confirmação do pagamento você recebe o link de download automaticamente por e-mail.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#pergunta4">
-                            Quanto tempo eu ganho ao usar a planilha?
-                        </button>
-                    </h2>
-                    <div id="pergunta4" class="accordion-collapse collapse" data-bs-parent="#faq">
-                        <div class="accordion-body">
-                            Muitas pessoas ganham 5-10 horas por mês de tempo livre. Não precisa gastar 30 minutos
-                            acompanhando
-                            gastos manualmente. A planilha automatiza tudo.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#pergunta5">
-                            Quanto dinheiro pessoas ganham usando isso?
-                        </button>
-                    </h2>
-                    <div id="pergunta5" class="accordion-collapse collapse" data-bs-parent="#faq">
-                        <div class="accordion-body">
-                            Depende de cada pessoa. A média dos nossos clientes economiza entre R$ 400-1.200/mês
-                            identificando gastos desnecessários e criando um plano real. Alguns ganham mais cortando
-                            despesas,
-                            outros ganham porque conseguem investir com mais clareza.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#pergunta6">
-                            O que é o tomador de decisão?
-                        </button>
-                    </h2>
-                    <div id="pergunta6" class="accordion-collapse collapse" data-bs-parent="#faq">
-                        <div class="accordion-body">
-                            È uma ferramenta inteligente que compara o seu saldo atual com suas metas. Ela responde:
-                            "Posso gastar R$ X agora?" O Tomador mostra se você pode, se deve poupar, ou se está perto
-                            do limite.
-                            Elimina decisões impulsivas.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#pergunta7">
-                            E se eu não conseguir acompanhar a planilha?
-                        </button>
-                    </h2>
-                    <div id="pergunta7" class="accordion-collapse collapse" data-bs-parent="#faq">
-                        <div class="accordion-body">
-                            Simples: você ativa a garantia de 30 dias e pede o reembolso. Mas 97% das pessoas que
-                            recebem
-                            a planilha conseguem usar. É tão simples quanto digitar dados em uma tabela.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#pergunta8">
-                            Posso usar em múltiplos dispositivos?
-                        </button>
-                    </h2>
-                    <div id="pergunta8" class="accordion-collapse collapse" data-bs-parent="#faq">
-                        <div class="accordion-body">
-                            Sim! Funciona em Google Planilhas (acesso de qualquer lugar do celular ou computador),
-                            Excel Desktop e Excel Web.
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
     <!-- CTA FINAL -->
-    <section class="section bg-light" id="comprar">
-        <div class="container">
+    <section class="section" id="comprar" style="background-color: #0a0a0a; border-top: 1px solid rgba(255,255,255,0.05); border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <div class="container position-relative z-1">
 
-            <h2 class="text-center mb-2">Escolha sua planilha (a maioria escolhe a Dinâmica)</h2>
-            <p class="text-center" style="color: #22c55e; font-weight: bold; margin-bottom: 10px;">⏰ Faltam apenas 17
-                vagas nesta promoção de 20% OFF</p>
-            <p class="text-center text-muted mb-5">✓ Garantia 30 dias | ✓  | ✓
-                Acesso permanente</p>
+            <h2 class="text-center mb-2 text-white fw-bold">Escolha sua planilha (a maioria escolhe a Dinâmica)</h2>
+            <p class="text-center" style="color: #22c55e; font-weight: bold; margin-bottom: 10px;">⏰ Faltam apenas 17 vagas nesta promoção de 20% OFF</p>
+            <p class="text-center mb-5" style="color: #a0aec0;">✓ Acesso permanente | ✓ Acesso permanente | ✓ Acesso permanente</p>
 
-            <div class="row justify-content-center">
+            <div class="row justify-content-center g-4">
 
                 <!-- PLANO BÁSICO -->
-                <div class="col-md-4 mb-4">
-                    <div class="plano-card text-center">
-                        <h4>Planilha Básica</h4>
-                        <p class="text-muted">Controle essencial</p>
+                <div class="col-md-4">
+                    <div class="plano-card text-center" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05);">
+                        <h4 class="text-white">Planilha Básica</h4>
+                        <p style="color: #94a3b8; min-height: 48px;">Assuma o <strong>controle financeiro</strong> e pare de perder dinheiro.</p>
 
-                        <div class="price">
+                        <div class="price text-white">
                             R$ 9,99
                         </div>
 
-                        <ul class="lista-beneficios">
-                            <li>✓ Controle de receitas</li>
-                            <li>✓ Controle de despesas</li>
-                            <li>✓ Resumo mensal</li>
-                            <li>✓ Categorias de gastos</li>
+                        <ul class="lista-beneficios" style="color: #cfcfcf;">
+                            <li style="border-color: rgba(255,255,255,0.05);"><i class="bi bi-check2 text-success me-2"></i> <strong>Controle total</strong> do seu dinheiro</li>
+                            <li style="border-color: rgba(255,255,255,0.05);"><i class="bi bi-check2 text-success me-2"></i> Pare de se perguntar para onde o dinheiro foi</li>
+                            <li style="border-color: rgba(255,255,255,0.05);"><i class="bi bi-check2 text-success me-2"></i> Resumo mensal automático e visual</li>
+                            <li style="border-color: rgba(255,255,255,0.05);"><i class="bi bi-check2 text-success me-2"></i> Saiba exatamente o seu saldo real</li>
+                            <li style="border-color: rgba(255,255,255,0.05);"><i class="bi bi-check2 text-success me-2"></i> Acesso vitalício imediato</li>
                         </ul>
 
-                        <a href="#" class="btn btn-outline-dark mt-3">
+                        <a href="#" class="btn btn-outline-light mt-3 w-100 fw-bold rounded-pill" style="border-color: rgba(255,255,255,0.2);">
                             Comprar agora
                         </a>
-                        <p style="margin-top: 15px; font-size: 12px; color: #999;;">
+                        <p style="margin-top: 15px; font-size: 12px; color: #64748b;">
                             Bom para iniciantes
                         </p>
                     </div>
                 </div>
 
                 <!-- PLANO DINÂMICO -->
-                <div class="col-md-4 mb-4">
-                    <div class="plano-card destaque text-center">
+                <div class="col-md-4">
+                    <div class="plano-card destaque text-center position-relative" style="background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(10px); border: 2px solid #22c55e;">
 
-                        <span class="badge-plano">🏆 MAIS VENDIDO</span>
-                        <p style="color: #22c55e; font-weight: bold; margin-top: 10px; margin-bottom: 0;">⭐ Escolha
-                            popular dos clientes</p>
+                        <span class="badge-plano" style="background: #22c55e;">🏆 MAIS VENDIDO</span>
+                        <p style="color: #22c55e; font-weight: bold; margin-top: 10px; margin-bottom: 0;">⭐ Escolha popular dos clientes</p>
 
-                        <h4>Planilha Dinâmica</h4>
-                        <p class="text-muted">Melhor custo/benefício</p>
+                        <h4 class="text-white">Planilha Dinâmica</h4>
+                        <p style="color: #94a3b8; min-height: 48px;">Tudo da Básica + <strong>Planejamento para guardar dinheiro</strong>.</p>
 
                         <div class="price">
-                            <del style="font-size: 28px; color: #999;">R$ 29,99</del><br>R$ 23,99
+                            <del style="font-size: 20px; color: #64748b;">R$ 24,99</del><br>
+                            <span class="text-success">R$ 19,99</span>
                         </div>
-                        <p style="color: #dc3545; font-weight: bold; margin-bottom: 20px;">Economize 20%!</p>
+                        <p style="color: #ef4444; font-weight: bold; margin-bottom: 20px;">Economize 20%!</p>
 
-                        <ul class="lista-beneficios">
-                            <li>✅ Tudo da planilha básica</li>
-                            <li>✅ Dashboard automático</li>
-                            <li>✅ Gráficos de gastos</li>
-                            <li>✅ Controle de metas</li>
-                            <li>✅ <strong>Tomador de decisão</strong></li>
+                        <ul class="lista-beneficios" style="color: #f8fafc;">
+                            <li style="border-color: rgba(255,255,255,0.05);"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Tudo do plano Básico</strong></li>
+                            <li style="border-color: rgba(255,255,255,0.05);"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Planeje guardar mais dinheiro</strong></li>
+                            <li style="border-color: rgba(255,255,255,0.05);"><i class="bi bi-check-circle-fill text-success me-2"></i> Dashboard inteligente de lucros</li>
+                            <li style="border-color: rgba(255,255,255,0.05);"><i class="bi bi-check-circle-fill text-success me-2"></i> Acompanhe e bata metas mais rápido</li>
+                            <li style="border-color: rgba(255,255,255,0.05);"><i class="bi bi-check-circle-fill text-success me-2"></i> Crescimento visual do seu patrimônio</li>
                         </ul>
 
-                        <a href="#" class="btn btn-dark mt-4" style="width: 100%; font-weight: bold; padding: 15px;">
+                        <a href="#" class="btn btn-success mt-4 w-100 fw-bold py-3 shadow-lg rounded-pill" style="background: #22c55e; border: none; letter-spacing: 0.5px;">
                             🔥 COMPRAR AGORA
                         </a>
-                        <p style="margin-top: 15px; font-size: 12px; color: #666;">
-                            👥 54 pessoas compraram hoje
+                        <p style="margin-top: 15px; font-size: 12px; color: #94a3b8;">
+                            👥 23 pessoas compraram hoje
                         </p>
                     </div>
                 </div>
 
                 <!-- PLANO PREMIUM -->
-                <div class="col-md-4 mb-4">
-                    <div class="plano-card text-center">
+                <div class="col-md-4">
+                    <div class="plano-card text-center" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05);">
 
-                        <h4>Planilha Premium</h4>
-                        <p class="text-muted">Controle financeiro completo</p>
+                        <h4 class="text-white">Planilha Premium</h4>
+                        <p style="color: #94a3b8; min-height: 48px;">O pacote definitivo: Tudo das outras + <strong>Decisor de Gastos</strong>.</p>
 
-                        <div class="price">
+                        <div class="price text-white">
                             R$ 29,99
                         </div>
 
-                        <ul class="lista-beneficios">
-                            <li>✓ Tudo da planilha dinâmica</li>
-                            <li>✓ Planejamento anual</li>
-                            <li>✓ Controle de investimentos</li>
-                            <li>✓ Simulador de compras</li>
+                        <ul class="lista-beneficios" style="color: #cfcfcf;">
+                            <li style="border-color: rgba(255,255,255,0.05);"><i class="bi bi-check2 text-success me-2"></i> <strong>Tudo da Básica e Dinâmica</strong></li>
+                            <li style="border-color: rgba(255,255,255,0.05);"><i class="bi bi-check2 text-success me-2"></i> Decisor de gastos com base nos seus objetivos</li>
+                            <li style="border-color: rgba(255,255,255,0.05);"><i class="bi bi-check2 text-success me-2"></i> Saiba quando pode gastar sem culpa</li>
+                            <li style="border-color: rgba(255,255,255,0.05);"><i class="bi bi-check2 text-success me-2"></i> Proteção contra compras por impulso</li>
+                            <li style="border-color: rgba(255,255,255,0.05);"><i class="bi bi-check2 text-success me-2"></i> Conquiste objetivos e metas anuais</li>
                         </ul>
 
-                        <a href="#" class="btn btn-outline-dark mt-3">
+                        <div class="mt-4 p-3 rounded-3" style="background: rgba(34, 197, 94, 0.1); border: 1px solid rgba(34, 197, 94, 0.2);">
+                            <p style="font-size: 11px; color: #22c55e; margin: 0; font-weight: 800; letter-spacing: 1px; text-transform: uppercase;">🎯 O SEGREDO DO PREMIUM</p>
+                            <h5 style="font-size: 16px; color: #f8fafc; margin: 8px 0 4px; font-weight: bold;">Decisor de Gastos Automático</h5>
+                            <p style="font-size: 13px; color: #94a3b8; margin: 0; line-height: 1.5;">Analisa seu plano de guardar dinheiro e diz na hora se você <strong>pode gastar ou não</strong>, garantindo a conquista dos seus objetivos.</p>
+                        </div>
+
+                        <a href="#" class="btn btn-outline-light mt-4 w-100 fw-bold rounded-pill" style="border-color: rgba(255,255,255,0.2);">
                             Comprar agora
                         </a>
-                        <p style="margin-top: 15px; font-size: 12px; color: #999;">
+                        <p style="margin-top: 15px; font-size: 12px; color: #64748b;">
                             Para quem quer tudo
                         </p>
                     </div>
@@ -513,50 +539,129 @@
         </div>
     </section>
 
-    <!-- ÚLTIMA CTA -->
-    <section class="section text-center"
-        style="background: linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 100%); color: white;">
-        <div class="container">
-            <h2 style="font-size: clamp(24px, 6vw, 36px); font-weight: 800; margin-bottom: 15px; line-height: 1.2;">
-                Ainda está em dúvida?
-            </h2>
-            <p class="fs-5 mb-5">
-                Veja o que você estará recebendo hoje mesmo...
-            </p>
+    <!--DÚVIDAS-->
+    <section class="section new-section" style="background-color: #050505;">
+        <div class="container" style="max-width:800px; margin:auto;">
 
-            <div class="row justify-content-center mb-4 mb-md-5">
-                <div class="col-12 col-md-6" style="text-align: left; padding: 0 10px;">
-                    <div
-                        style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 10px; border-left: 4px solid #22c55e;">
-                        <p style="margin-bottom: 8px; font-size: clamp(12px, 3vw, 14px);"><strong>✓ Acesso
-                                imediato</strong> - Download em 2 minutos por
-                            e-mail</p>
-                        <p style="margin-bottom: 8px; font-size: clamp(12px, 3vw, 14px);"><strong>✓ Funciona
-                                offline</strong> - Use sem conexão com
-                            internet</p>
-                        <p style="margin-bottom: 0; font-size: clamp(12px, 3vw, 14px);"><strong>✓ Garantia de 30
-                                dias</strong> - Risco ZERO ao comprar</p>
+            <h2 class="title text-center text-white">Dúvidas frequentes</h2>
+            <hr class="linha-titulo" style="background: #22c55e;">
+
+            <div class="accordion accordion-dark" id="faq">
+                <div class="accordion-item" style="background: transparent; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button bg-dark text-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#pergunta1" style="font-weight: 600;">
+                            A planilha funciona no celular?
+                        </button>
+                    </h2>
+                    <div id="pergunta1" class="accordion-collapse collapse show" data-bs-parent="#faq">
+                        <div class="accordion-body" style="background: #111; color: #a0aec0; border-top: 1px solid rgba(255,255,255,0.05);">
+                            Sim. Você pode usar em qualquer dispositivo com o Google Planilhas ou Excel.
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div
-                style="background: rgba(34, 197, 94, 0.15); padding: clamp(20px, 4vw, 30px); border-radius: 15px; border: 2px solid #22c55e; margin-bottom: 30px; margin-left: 10px; margin-right: 10px;">
-                <p style="font-size: clamp(12px, 3vw, 14px); margin-bottom: 10px; color: #cfcfcf; font-weight: bolder;">Oferta especial hoje
+                <div class="accordion-item" style="background: transparent; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#pergunta2" style="font-weight: 600;">
+                            Preciso entender de Excel para usar a planilha?
+                        </button>
+                    </h2>
+                    <div id="pergunta2" class="accordion-collapse collapse" data-bs-parent="#faq">
+                        <div class="accordion-body" style="background: #111; color: #a0aec0; border-top: 1px solid rgba(255,255,255,0.05);">
+                            Não. A planilha foi criada para ser simples e intuitiva. Basta inserir suas informações.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item" style="background: transparent; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#pergunta3" style="font-weight: 600;">
+                            Como recebo a planilha após a compra?
+                        </button>
+                    </h2>
+                    <div id="pergunta3" class="accordion-collapse collapse" data-bs-parent="#faq">
+                        <div class="accordion-body" style="background: #111; color: #a0aec0; border-top: 1px solid rgba(255,255,255,0.05);">
+                            Após a confirmação do pagamento você recebe o link de download automaticamente por e-mail.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item" style="background: transparent; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#pergunta4" style="font-weight: 600;">
+                            Quanto tempo eu ganho ao usar a planilha?
+                        </button>
+                    </h2>
+                    <div id="pergunta4" class="accordion-collapse collapse" data-bs-parent="#faq">
+                        <div class="accordion-body" style="background: #111; color: #a0aec0; border-top: 1px solid rgba(255,255,255,0.05);">
+                            Muitas pessoas ganham 5-10 horas por mês de tempo livre. Não precisa gastar 30 minutos acompanhando gastos manualmente. A planilha automatiza tudo.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item" style="background: transparent; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#pergunta5" style="font-weight: 600;">
+                            Quanto dinheiro pessoas ganham usando isso?
+                        </button>
+                    </h2>
+                    <div id="pergunta5" class="accordion-collapse collapse" data-bs-parent="#faq">
+                        <div class="accordion-body" style="background: #111; color: #a0aec0; border-top: 1px solid rgba(255,255,255,0.05);">
+                            Depende de cada pessoa. A média dos nossos clientes economiza entre R$ 400-1.200/mês identificando gastos desnecessários e criando um plano real. Alguns ganham mais cortando despesas, outros ganham porque conseguem investir com mais clareza.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item" style="background: transparent; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#pergunta6" style="font-weight: 600;">
+                            O que é o tomador de decisão?
+                        </button>
+                    </h2>
+                    <div id="pergunta6" class="accordion-collapse collapse" data-bs-parent="#faq">
+                        <div class="accordion-body" style="background: #111; color: #a0aec0; border-top: 1px solid rgba(255,255,255,0.05);">
+                            É uma ferramenta inteligente que compara o seu saldo atual com suas metas. Ela responde: "Posso gastar R$ X agora?" O Tomador mostra se você pode, se deve poupar, ou se está perto do limite. Elimina decisões impulsivas.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item" style="background: transparent; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#pergunta8" style="font-weight: 600;">
+                            Posso usar em múltiplos dispositivos?
+                        </button>
+                    </h2>
+                    <div id="pergunta8" class="accordion-collapse collapse" data-bs-parent="#faq">
+                        <div class="accordion-body" style="background: #111; color: #a0aec0; border-top: 1px solid rgba(255,255,255,0.05);">
+                            Sim! Funciona em Google Planilhas (acesso de qualquer lugar do celular ou computador), Excel Desktop e Excel Web.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ÚLTIMA CTA -->
+    <section class="section text-center" style="background: radial-gradient(circle at center, #0a0a0a 0%, #000000 100%); color: white; border-top: 1px solid rgba(255,255,255,0.05);">
+        <div class="container position-relative z-1">
+
+            <div class="p-4 p-md-5 mx-auto" style="background: rgba(34, 197, 94, 0.05); border-radius: 20px; border: 1px solid rgba(34, 197, 94, 0.2); max-width: 700px; backdrop-filter: blur(10px); box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+                <p style="font-size: clamp(12px, 3vw, 14px); margin-bottom: 15px; color: #a0aec0; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">
+                    <span class="text-success me-1">●</span> Oferta especial hoje
                 </p>
-                <h3 style="color: #22c55e; font-weight: 800; margin-bottom: 15px; font-size: clamp(18px, 5vw, 24px);">
-                    20% OFF na Planilha Dinâmica + Garantia 30 dias
+                <h3 style="color: #f8fafc; font-weight: 800; margin-bottom: 15px; font-size: clamp(20px, 5vw, 28px);">
+                    20% OFF na Planilha <span class="text-success">Dinâmica + Decisor</span>
                 </h3>
-                <p style="color: #cfcfcf; margin-bottom: 20px; font-size: clamp(12px, 3vw, 14px); font-weight: bold;">
-                    Apenas <strong>17 vagas restantes</strong> nesta promoção
+                <p style="color: #a0aec0; margin-bottom: 30px; font-size: clamp(14px, 3vw, 16px); font-weight: 500;">
+                    Apenas <span class="badge bg-danger bg-opacity-25 text-danger border border-danger border-opacity-50 fs-6">17 vagas restantes</span> nesta promoção
                 </p>
-                <a href="#comprar" class="btn btn-main btn-lg"
-                    style="padding: clamp(10px 15px, 3vw, 15px 50px); font-weight: bold; font-size: clamp(12px, 3vw, 16px); width: 100%; max-width: 350px;">
+                <a href="#comprar" class="btn btn-success btn-lg shadow-lg rounded-pill" style="padding: 15px 40px; font-weight: bold; font-size: clamp(14px, 3vw, 16px); width: 100%; transition: transform 0.2s;">
                     ⏰ COMPRAR AGORA - OFERTA TERMINA HJ
                 </a>
             </div>
 
-            <p style="font-size: clamp(11px, 2.5vw, 13px); color: #999; line-height: 1.5; font-weight: bolder;">
+            <p class="mt-5" style="font-size: clamp(12px, 2.5vw, 14px); color: #64748b; line-height: 1.6; font-weight: 500; max-width: 500px; margin: 0 auto;">
                 Investimento pequeno que vai gerar economia GRANDE no seu dia a dia.<br>
                 Não deixe para depois. Vagas limitadas nesta promoção.
             </p>
