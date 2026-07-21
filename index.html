@@ -1,191 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>RivaTec | Assistência Técnica Especializada</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hubex | Transporte Internacional</title>
     <meta name="description"
-        content="Assistência Técnica Especializada em Geladeiras, Freezers, Lavadoras e Fogões. Mais de 15 anos de experiência.">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            padding-top: 85px;
-            background: #f8f9fa;
-        }
-
-        :root {
-
-            --azul: #0A3E75;
-            --verde: #30C15A;
-
-        }
-
-        .navbar {
-
-            background: #fff;
-            box-shadow: 0 2px 15px rgba(0, 0, 0, .08);
-
-        }
-
-        .nav-link {
-
-            font-weight: 600;
-            color: var(--azul) !important;
-            margin-left: 20px;
-
-        }
-
-        .nav-link:hover {
-
-            color: var(--verde) !important;
-
-        }
-
-        .btn-whats {
-
-            background: var(--verde);
-            color: #fff;
-            padding: 10px 22px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: bold;
-
-        }
-
-        .btn-whats:hover {
-
-            background: #28a84f;
-            color: #fff;
-
-        }
-
-        .hero {
-
-            padding: 90px 0;
-            background: linear-gradient(135deg, #0A3E75, #124d8f);
-            color: #fff;
-
-        }
-
-        .hero h1 {
-
-            font-size: 3rem;
-            font-weight: 700;
-
-        }
-
-        .hero p {
-
-            font-size: 1.2rem;
-            margin: 25px 0;
-
-        }
-
-        .btn-hero {
-
-            background: #30C15A;
-            color: #fff;
-            padding: 15px 35px;
-            border-radius: 40px;
-            font-weight: bold;
-            text-decoration: none;
-
-        }
-
-        .btn-hero:hover {
-
-            background: #2da850;
-            color: #fff;
-
-        }
-
-        .logo-slider {
-
-            overflow: hidden;
-            background: #fff;
-            padding: 25px 0;
-
-        }
-
-        .logo-track {
-
-            display: flex;
-            width: max-content;
-            animation: slide 25s linear infinite;
-
-        }
-
-        .logo-track img {
-
-            height: 70px;
-            margin: 0 50px;
-            opacity: .75;
-            transition: .3s;
-
-        }
-
-        .logo-track img:hover {
-
-            opacity: 1;
-
-        }
-
-        @keyframes slide {
-
-            0% {
-                transform: translateX(0);
-            }
-
-            100% {
-                transform: translateX(-50%);
-            }
-
-        }
-
-        section {
-
-            padding: 80px 0;
-
-        }
-    </style>
-
+        content="A Hubex conecta o Brasil ao mundo com soluções de compra, armazenamento, embalagem e envio internacional.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-    <nav class="navbar navbar-expand-lg fixed-top">
+<body>
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
         <div class="container">
+
             <a class="navbar-brand" href="#">
-                <img src="img/LogoRiva.png" height="60">
+                <img src="img/HUBEXbr.png" alt="Hubex" class="logo" height="55px" width="auto">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="menu">
-                <ul class="navbar-nav align-items-lg-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Início</a>
-                    </li>
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
                     <li class="nav-item">
                         <a class="nav-link" href="#servicos">Serviços</a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#produtos">Produtos</a>
+                        <a class="nav-link" href="#como-funciona">Como funciona</a>
                     </li>
-                    <li class="nav-item ms-lg-3">
 
-                        <a href="https://wa.me/5511966294273" class="btn-whats">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
 
-                            <i class="bi bi-whatsapp"></i>
+                    <li class="nav-item">
+                        <a class="btn btn-primary ms-lg-3" href="https://wa.me/5500000000000" target="_blank">
                             WhatsApp
                         </a>
                     </li>
@@ -195,492 +51,318 @@
     </nav>
 
 
+
+    <!-- HERO -->
     <section class="hero">
+
         <div class="container">
+
             <div class="row align-items-center">
-                <div class="col-lg-6 mb-4">
+
+                <div class="col-lg-7">
+
                     <h1>
-
-                        Assistência Técnica Especializada
-                        para sua casa.
-
+                        Envie produtos do Brasil para qualquer lugar do mundo
                     </h1>
-                    <p>
-                        <strong>Atendimento em até 24h após o agendamento!</strong>
-
-                    </p>
-                    <a href="https://wa.me/5511966294273" class="btn-hero">
-                        Solicitar Orçamento
-                    </a>
-                </div>
-
-                <div class="col-lg-6 text-center">
-                    <img src="img/unnamed-5-300x296.jpg" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <div class="logo-slider">
-        <div class="logo-track">
-            <img src="img/brastemp-logo_edit.png">
-
-            <img src="img/Electrolux-Logo.png">
-
-            <img src="img/consul_logo2.png">
-
-            <img src="img/lgLogo.png">
-
-            <img src="img/samsung2.png">
-
-            <img src="img/MideaLogo.png">
-
-            <img src="img/brastemp-logo_edit.png">
-
-            <img src="img/Electrolux-Logo.png">
-
-            <img src="img/consul_logo2.png">
-
-            <img src="img/lgLogo.png">
-
-            <img src="img/samsung2.png">
-
-            <img src="img/MideaLogo.png">
-        </div>
-    </div>
-
-    <!-- SOBRE -->
-    <section>
-        <div class="container">
-            <div class="row align-items-center text-center g-5">
-                <div class="col-lg-6">
-                    <img src="img/logologo.jpeg" class="img-fluid rounded-4 shadow">
-                </div>
-
-                <div class="col-lg-6">
-                    <h2 class="fw-bold text-primary mb-4">
-                        Mais de <span style="color:#30C15A;">15 anos</span> de experiência
-                    </h2>
-
-                    <p class="lead">
-                        Há mais de uma década a RivaTec presta serviços de assistência técnica especializada,
-                        conquistando a confiança de centenas de clientes através de um atendimento transparente, rápido
-                        e com garantia.
-                    </p>
 
                     <p>
-                        Nossa missão é prolongar a vida útil dos seus equipamentos utilizando peças de qualidade e mão
-                        de obra especializada.
+                        A Hubex cuida de todo o processo:
+                        compra, recebimento, armazenamento,
+                        embalagem, documentação e envio internacional.
                     </p>
 
-                    <a href="https://wa.me/5511966294273" class="btn btn-success btn-lg rounded-pill px-4">
-                        Solicitar Atendimento
+
+                    <a href="https://wa.me/5500000000000" target="_blank" class="btn btn-primary btn-lg">
+                        Solicitar orçamento
                     </a>
+
                 </div>
+
+
+                <div class="col-lg-5 text-center">
+                    <img src="img/transport-logistics-concept.jpg" class="img-fluid rounded"
+                        alt="Transporte internacional">
+                </div>
+
             </div>
+
         </div>
+
     </section>
 
-    <!-- BENEFÍCIOS -->
-    <section style="background:#fff;">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="fw-bold">
-                    Por que escolher a RivaTec?
-                </h2>
-                <p class="text-muted">
-                    Compromisso, qualidade e atendimento diferenciado.
-                </p>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-3">
-                    <div class="card border-0 shadow h-100 text-center p-4">
-                        <div class="display-4 text-success mb-3">
-                            <i class="bi bi-lightning-charge-fill"></i>
-                        </div>
-
-                        <h5>Atendimento Rápido</h5>
-
-                        <p>
-                            Agilidade desde o primeiro contato até a conclusão do serviço.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card border-0 shadow h-100 text-center p-4">
-                        <div class="display-4 text-primary mb-3">
-                            <i class="bi bi-patch-check-fill"></i>
-                        </div>
-
-                        <h5>Garantia</h5>
-
-                        <p>
-                            Todos os serviços possuem garantia para sua tranquilidade.
-                        </p>
-
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card border-0 shadow h-100 text-center p-4">
-                        <div class="display-4 text-success mb-3">
-                            <i class="bi bi-tools"></i>
-                        </div>
-
-                        <h5>Técnicos Especializados</h5>
-
-                        <p>
-                            Equipe treinada para atender as principais marcas do mercado.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card border-0 shadow h-100 text-center p-4">
-                        <div class="display-4 text-primary mb-3">
-                            <i class="bi bi-cash-coin"></i>
-                        </div>
-
-                        <h5>Preço Justo</h5>
-
-                        <p>
-                            Orçamento transparente e sem compromisso.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 
     <!-- SERVIÇOS -->
+    <section id="servicos" class="py-5">
 
-    <section id="servicos">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="fw-bold">
-                    Nossos Serviços
-                </h2>
 
-                <p class="text-muted">
-                    Atendimento especializado para sua residência ou empresa.
-                </p>
+            <h2 class="text-center mb-5">
+                Nossos serviços
+            </h2>
 
-            </div>
+
             <div class="row g-4">
-                <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 shadow text-center p-4 h-100">
-                        <img src="img/Geladeira.jpeg" class="img-fluid rounded mb-3">
 
-                        <h5>Geladeiras</h5>
 
-                        <p>
-                            Conserto e manutenção preventiva.
-                        </p>
+                <div class="col-md-4">
+                    <div class="card service-card h-100">
+
+                        <div class="card-body">
+
+                            <h5>
+                                📦 Personal Shopper
+                            </h5>
+
+                            <p>
+                                Encontramos e compramos produtos para clientes que estão fora do país.
+                            </p>
+
+                        </div>
 
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 shadow text-center p-4 h-100">
-                        <img src="img/Freezer.jpeg" class="img-fluid rounded mb-3">
 
-                        <h5>Freezers</h5>
 
-                        <p>
-                            Diagnóstico e reparo especializado.
-                        </p>
+                <div class="col-md-4">
+                    <div class="card service-card h-100">
+
+                        <div class="card-body">
+
+                            <h5>
+                                🏢 Recebimento e armazenamento
+                            </h5>
+
+                            <p>
+                                Recebemos seus produtos e organizamos tudo antes do envio.
+                            </p>
+
+                        </div>
+
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 shadow text-center p-4 h-100">
-                        <img src="img/Lavadoura.jpeg" class="img-fluid rounded mb-3">
 
-                        <h5>Lavadoras</h5>
 
-                        <p>
-                            Manutenção em máquinas de lavar.
-                        </p>
+                <div class="col-md-4">
+                    <div class="card service-card h-100">
+
+                        <div class="card-body">
+
+                            <h5>
+                                📋 Documentação
+                            </h5>
+
+                            <p>
+                                Cuidamos de toda documentação necessária.
+                            </p>
+
+                        </div>
+
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 shadow text-center p-4 h-100">
-                        <img src="img/Fogoes.jpeg" class="img-fluid rounded mb-3">
 
-                        <h5>Fogões</h5>
 
-                        <p>
-                            Assistência técnica completa.
-                        </p>
+
+                <div class="col-md-4">
+
+                    <div class="card service-card h-100">
+
+                        <div class="card-body">
+
+                            <h5>
+                                📦 Embalagem especializada
+                            </h5>
+
+                            <p>
+                                Preparação adequada para garantir mais segurança no transporte.
+                            </p>
+
+                        </div>
+
                     </div>
+
                 </div>
+
+
+
+                <div class="col-md-4">
+
+                    <div class="card service-card h-100">
+
+                        <div class="card-body">
+
+                            <h5>
+                                🔄 Redirecionamento de compras
+                            </h5>
+
+                            <p>
+                                Para clientes que compram mas não possuem endereço no Brasil.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-md-4">
+
+                    <div class="card service-card h-100">
+
+                        <div class="card-body">
+
+                            <h5>
+                                🚚 Frete internacional
+                            </h5>
+
+                            <p>
+                                Para levar os produtos ao país de destino..
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
             </div>
+
         </div>
+
     </section>
 
-    <!-- MARCAS -->
 
-    <section style="background:#f5f7fa;">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="fw-bold">Marcas Atendidas</h2>
-
-                <p class="text-muted">
-                    Atendemos as principais fabricantes do mercado.
-                </p>
-            </div>
-
-            <div class="row text-center g-4">
-                <div class="col-6 col-md-2">
-                    <div class="border rounded bg-white shadow-sm py-4">
-
-                        <h5>Brastemp</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-2">
-                    <div class="border rounded bg-white shadow-sm py-4">
-                        <h5>Electrolux</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-2">
-                    <div class="border rounded bg-white shadow-sm py-4">
-                        <h5>Consul</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-2">
-                    <div class="border rounded bg-white shadow-sm py-4">
-                        <h5>Samsung</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-2">
-                    <div class="border rounded bg-white shadow-sm py-4">
-                        <h5>LG</h5>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-2">
-                    <div class="border rounded bg-white shadow-sm py-4">
-                        <h5>Midea</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 
     <!-- COMO FUNCIONA -->
+    <section id="como-funciona" class="bg-light py-5">
 
-    <section>
         <div class="container">
-            <div class="text-center mb-5">
 
-                <h2 class="fw-bold">
-                    Como funciona?
-                </h2>
-
-                <p class="text-muted">
-                    Solicite seu atendimento em poucos minutos.
-                </p>
-
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-3">
-                    <div class="text-center">
-                        <div class="rounded-circle bg-primary text-white mx-auto d-flex align-items-center justify-content-center mb-3"
-                            style="width:80px;height:80px;font-size:30px;">
-                            1
-                        </div>
-
-                        <h5>Contato</h5>
-
-                        <p>Entre em contato pelo WhatsApp.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="text-center">
-                        <div class="rounded-circle bg-success text-white mx-auto d-flex align-items-center justify-content-center mb-3"
-                            style="width:80px;height:80px;font-size:30px;">
-                            2
-                        </div>
-
-                        <h5>Agendamento</h5>
-
-                        <p>Marcamos o melhor horário para você.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-
-                    <div class="text-center">
-
-                        <div class="rounded-circle bg-primary text-white mx-auto d-flex align-items-center justify-content-center mb-3"
-                            style="width:80px;height:80px;font-size:30px;">
-                            3
-                        </div>
-
-                        <h5>Conserto</h5>
-
-                        <p>Diagnóstico rápido e reparo especializado.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="text-center">
-                        <div class="rounded-circle bg-success text-white mx-auto d-flex align-items-center justify-content-center mb-3"
-                            style="width:80px;height:80px;font-size:30px;">
-                            4
-                        </div>
-
-                        <h5>Garantia</h5>
-
-                        <p>Seu equipamento funcionando com segurança.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- DEPOIMENTOS -->
-
-    <section style="background:#0A3E75;color:white;">
-        <div class="container">
-            <div class="text-center mb-5">
-
-                <h2 class="fw-bold">
-                    O que nossos clientes dizem
-                </h2>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="bg-white text-dark rounded shadow p-4 h-100">
-                        ★★★★★
-
-                        <p class="mt-3">
-                            "Atendimento excelente. Minha geladeira voltou a funcionar no mesmo dia."
-                        </p>
-
-                        <strong>Marcos Silva</strong>
-
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="bg-white text-dark rounded shadow p-4 h-100">
-                        ★★★★★
-
-                        <p class="mt-3">
-                            "Preço justo, atendimento rápido e muito profissional."
-                        </p>
-                        <strong>Ana Paula</strong>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="bg-white text-dark rounded shadow p-4 h-100">
-                        ★★★★★
-
-                        <p class="mt-3">
-                            "Recomendo. Serviço limpo, rápido e com garantia."
-                        </p>
-
-                        <strong>José Roberto</strong>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- CTA -->
-
-    <section style="background:linear-gradient(135deg,#30C15A,#1fa94b);color:white;">
-        <div class="container text-center">
-
-            <h2 class="fw-bold mb-4">
-                Seu equipamento apresentou defeito?
+            <h2 class="text-center mb-5">
+                Como funciona
             </h2>
 
-            <p class="lead">
-                Solicite um orçamento sem compromisso e fale diretamente com um técnico.
-            </p>
 
-            <a href="https://wa.me/5511966294273" class="btn btn-light btn-lg rounded-pill px-5 mt-3">
-                <i class="bi bi-whatsapp"></i>
-                Falar no WhatsApp
-            </a>
+            <div class="row text-center">
+
+
+                <div class="col-md-3">
+
+                    <h3>1</h3>
+                    <p>Entre em contato</p>
+
+                </div>
+
+
+                <div class="col-md-3">
+
+                    <h3>2</h3>
+                    <p>Informe o que precisa enviar</p>
+
+                </div>
+
+
+                <div class="col-md-3">
+
+                    <h3>3</h3>
+                    <p>Prepararmos sua encomenda</p>
+
+                </div>
+
+
+                <div class="col-md-3">
+
+                    <h3>4</h3>
+                    <p>Enviamos para seu destino</p>
+
+                </div>
+
+
+            </div>
+
+
         </div>
+
     </section>
 
-    <!-- RODAPÉ -->
-    <footer class="bg-dark text-white pt-5 pb-3">
-        <div class="container">
-            <div class="row gy-4">
-                <div class="col-lg-4">
-                    <img src="img/LogoRiva.png" height="60" class="mb-3">
 
-                    <p>
-                        Há mais de 15 anos oferecendo assistência técnica especializada com rapidez, qualidade e
-                        garantia.
-                    </p>
-                </div>
 
-                <div class="col-lg-4">
-                    <h5 class="mb-3">Contato</h5>
 
-                    <p><i class="bi bi-telephone-fill"></i> (11) 99999-9999</p>
-                    <p><i class="bi bi-whatsapp"></i> WhatsApp</p>
-                    <p><i class="bi bi-envelope-fill"></i> contato@rivatec.com.br</p>
-                    <p><i class="bi bi-geo-alt-fill"></i> São Paulo - SP</p>
-                </div>
 
-                <div class="col-lg-4">
-                    <h5 class="mb-3">Links Rápidos</h5>
+    <!-- SOBRE -->
 
-                    <p><a href="#" class="text-white text-decoration-none">Início</a></p>
-                    <p><a href="#servicos" class="text-white text-decoration-none">Serviços</a></p>
-                    <p><a href="#produtos" class="text-white text-decoration-none">Produtos</a></p>
-                    <a href="https://wa.me/5511966294273" class="btn btn-success rounded-pill mt-2">
+    <section id="sobre" class="py-5">
 
-                        <i class="bi bi-whatsapp"></i>
-                        Solicitar Atendimento
-                    </a>
-                </div>
-            </div>
+        <div class="container text-center">
 
-            <hr class="my-4">
-            <div class="text-center">
-                © 2026 <strong>RivaTec Assistência Técnica</strong> • Todos os direitos reservados.
-            </div>
+
+            <h2>
+                Sobre a Hubex
+            </h2>
+
+
+            <p class="mt-4">
+
+                A Hubex nasceu para facilitar o envio de produtos entre países,
+                oferecendo uma solução completa para brasileiros e empresas
+                que precisam conectar o Brasil ao mundo.
+
+            </p>
+
+
         </div>
+
+    </section>
+
+
+
+
+    <!-- CTA FINAL -->
+
+    <section class="cta">
+
+        <div class="container text-center">
+
+            <h2>
+                Precisa enviar algo do Brasil para outro país?
+            </h2>
+
+
+            <a href="https://wa.me/5500000000000" target="_blank" class="btn btn-light btn-lg mt-3">
+
+                Falar com a Hubex
+
+            </a>
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <footer class="py-4 text-center">
+
+        <p class="mb-0">
+            © 2026 Hubex - Transporte Internacional
+        </p>
+
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 
-    <!-- BOTÃO FLUTUANTE -->
-
-    <a href="https://wa.me/5511966294273"
-        class="position-fixed bottom-0 end-0 m-4 btn btn-success rounded-circle shadow"
-        style="width:65px;height:65px;font-size:30px;display:flex;align-items:center;justify-content:center;z-index:999;">
-        <i class="bi bi-whatsapp"></i>
-    </a>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
