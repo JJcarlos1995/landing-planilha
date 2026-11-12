@@ -1,0 +1,35 @@
+# 01 Finanças — Robots.txt (SEO + AI Search / GEO Optimized)
+User-agent: *
+Allow: /
+Disallow: /node_modules/
+Disallow: /src/
+
+# Motores de IA e Assistentes de Resposta (SearchGPT, ChatGPT, Claude, Perplexity, Gemini)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemap e Documentação para LLMs
+Sitemap: https://01financas.com.br/sitemap.xml
+# LLMs Context: https://01financas.com.br/llms.txt
+# LLMs Full Context: https://01financas.com.br/llms-full.txt

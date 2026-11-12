@@ -1,0 +1,984 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>01 Finanças — Planilha de Controle Financeiro Pessoal (Excel e Google Sheets) a partir de R$ 4,99</title>
+  <meta name="description" content="Organize gastos, orçamento mensal, metas, dívidas e patrimônio em uma planilha pronta com Dashboard moderno para Excel, Google Sheets e Numbers. Básica R$ 4,99, Dinâmica R$ 9,99 e Completa R$ 15,99 com 3 bônus. Pagamento único e 7 dias de garantia.">
+  <meta name="keywords" content="planilha de controle financeiro, planilha financeira pessoal, planilha de gastos mensais, planilha excel controle financeiro, planilha google sheets finanças, planilha orçamento familiar, planilha quitação de dívidas, planilha de investimentos e patrimônio, 01 finanças">
+  <meta name="author" content="01 Finanças">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="theme-color" content="#001641">
+  <link rel="canonical" href="https://01financas.com.br/">
+  <link rel="alternate" hreflang="pt-BR" href="https://01financas.com.br/">
+  <link rel="alternate" type="text/plain" href="llms.txt" title="Contexto 01 Finanças para IAs e LLMs">
+
+  <meta property="og:type" content="product">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="01 Finanças">
+  <meta property="og:title" content="01 Finanças — Planilha de Controle Financeiro Pessoal a partir de R$ 4,99">
+  <meta property="og:description" content="Seis áreas do seu dinheiro em uma única planilha com Dashboard moderno. Básica R$ 4,99, Dinâmica R$ 9,99 e Completa R$ 15,99 com 3 bônus. Pagamento único.">
+  <meta property="og:url" content="https://01financas.com.br/">
+  <meta property="og:image" content="https://01financas.com.br/assets/img/og-01-financas.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="01 Finanças — planilha de controle financeiro com dashboard para Excel e Google Sheets">
+  <meta property="product:price:amount" content="4.99">
+  <meta property="product:price:currency" content="BRL">
+  <meta property="product:availability" content="in stock">
+  <meta property="product:condition" content="new">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="01 Finanças — Planilha de Controle Financeiro Pessoal a partir de R$ 4,99">
+  <meta name="twitter:description" content="Gastos, orçamento, metas, dívidas e patrimônio em uma só planilha com Dashboard. Acesso imediato e 7 dias de garantia.">
+  <meta name="twitter:image" content="https://01financas.com.br/assets/img/og-01-financas.png">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="preload" href="assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://01financas.com.br/#organizacao",
+        "name": "01 Finanças",
+        "url": "https://01financas.com.br/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://01financas.com.br/assets/img/icon-512.png",
+          "width": 512,
+          "height": 512
+        },
+        "email": "contato@01financas.com.br",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "contato@01financas.com.br",
+          "contactType": "customer support",
+          "availableLanguage": ["Portuguese"]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://01financas.com.br/#website",
+        "url": "https://01financas.com.br/",
+        "name": "01 Finanças",
+        "inLanguage": "pt-BR",
+        "publisher": { "@id": "https://01financas.com.br/#organizacao" }
+      },
+      {
+        "@type": ["Product", "SoftwareApplication"],
+        "@id": "https://01financas.com.br/#produto",
+        "name": "01 Finanças — Planilha de Controle Financeiro Pessoal",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Microsoft Excel, Google Sheets, Apple Numbers (Windows, macOS, Android, iOS)",
+        "sku": "01FIN-LOTE01",
+        "description": "Planilha de controle financeiro pessoal com Dashboard visual moderno (Painel 01), fluxo mensal de 12 meses, orçamento planejado vs. realizado por categoria, metas financeiras com progresso, plano de quitação de dívidas e gestão de patrimônio e investimentos.",
+        "brand": { "@id": "https://01financas.com.br/#organizacao" },
+        "image": [
+          "https://01financas.com.br/assets/img/og-01-financas.png",
+          "https://01financas.com.br/assets/img/icon-512.png"
+        ],
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "BR",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 7,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "offers": {
+          "@type": "AggregateOffer",
+          "url": "https://01financas.com.br/#planos",
+          "priceCurrency": "BRL",
+          "lowPrice": "4.99",
+          "highPrice": "15.99",
+          "offerCount": "3",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": "2026-11-30",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "01 Finanças — Versão Básica (2 abas: Painel 01 + Fluxo Mensal)",
+              "sku": "01FIN-BASICA",
+              "price": "4.99",
+              "priceCurrency": "BRL",
+              "availability": "https://schema.org/InStock",
+              "url": "https://01financas.com.br/#planos",
+              "priceValidUntil": "2026-11-30"
+            },
+            {
+              "@type": "Offer",
+              "name": "01 Finanças — Versão Dinâmica (4 abas: Painel 01, Fluxo, Orçamento e Metas)",
+              "sku": "01FIN-DINAMICA",
+              "price": "9.99",
+              "priceCurrency": "BRL",
+              "availability": "https://schema.org/InStock",
+              "url": "https://01financas.com.br/#planos",
+              "priceValidUntil": "2026-11-30"
+            },
+            {
+              "@type": "Offer",
+              "name": "01 Finanças — Versão Completa (6 abas + Dívidas + Patrimônio + 3 Bônus Lote 01)",
+              "sku": "01FIN-COMPLETA",
+              "price": "15.99",
+              "priceCurrency": "BRL",
+              "availability": "https://schema.org/InStock",
+              "url": "https://01financas.com.br/#planos",
+              "priceValidUntil": "2026-11-30"
+            }
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://01financas.com.br/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Qual versão escolher?",
+            "acceptedAnswer": { "@type": "Answer", "text": "A Básica (R$ 4,99) organiza receitas, despesas e saldo do mês com Dashboard. A Dinâmica (R$ 9,99) adiciona orçamento com teto por categoria e metas com prazo. A Completa (R$ 15,99) inclui controle de dívidas, patrimônio, reserva de emergência e os três bônus do Lote 01." }
+          },
+          {
+            "@type": "Question",
+            "name": "Preciso saber Excel ou funciona no celular?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Não precisa saber fórmulas: a planilha já vem pronta para Excel, Google Sheets e Numbers, com cálculos automáticos e visão mobile responsiva." }
+          },
+          {
+            "@type": "Question",
+            "name": "Como recebo o acesso? É pagamento único?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Sim, pagamento único sem mensalidade. O acesso chega imediatamente no seu e-mail após a confirmação do pagamento (Pix e cartão liberam na hora)." }
+          },
+          {
+            "@type": "Question",
+            "name": "E se eu não gostar?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Você tem 7 dias corridos de garantia incondicional para solicitar o reembolso integral pelo e-mail de suporte, sem precisar justificar." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body id="topo">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="topbar">
+    <div class="container-x topbar__inner">
+      <p class="flex items-center gap-2.5">
+        <span class="relative flex h-1.5 w-1.5" aria-hidden="true">
+          <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-orange opacity-60"></span>
+          <span class="relative inline-flex h-1.5 w-1.5 rounded-full bg-orange"></span>
+        </span>
+        <strong class="font-bold">Lote 01</strong>
+        <span class="hidden text-ivory/55 sm:inline">· preço de lançamento</span>
+        <span class="text-ivory/55 sm:hidden">· R$ 4,99</span>
+      </p>
+      <div class="flex items-center gap-3">
+        <span class="hidden text-ivory/45 sm:inline">encerra em</span>
+        <span class="countdown" data-countdown aria-label="Tempo restante da condição de lançamento">
+          <span class="countdown__part"><b data-days>00</b><span>d</span></span>
+          <span class="countdown__sep">:</span>
+          <span class="countdown__part"><b data-hours>00</b><span>h</span></span>
+          <span class="countdown__sep">:</span>
+          <span class="countdown__part"><b data-minutes>00</b><span>min</span></span>
+          <span class="countdown__sep hidden sm:inline">:</span>
+          <span class="countdown__part hidden sm:inline-flex"><b data-seconds>00</b><span>s</span></span>
+        </span>
+        <span class="countdown-expired" data-countdown-expired>Lote encerrado</span>
+        <a class="topbar__link" href="#planos">Ver planos
+          <svg class="h-3 w-3" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header" id="header">
+    <div class="container-x site-header__inner">
+      <a class="brand" href="#topo" aria-label="01 Finanças — voltar ao início">
+        <img src="assets/img/logo-01-financas.webp" width="760" height="202" alt="01 Finanças" fetchpriority="high">
+      </a>
+      <nav class="hidden items-center gap-8 md:flex" aria-label="Navegação principal">
+        <a class="nav-link" href="#o-que-recebe">O que você recebe</a>
+        <a class="nav-link" href="#planos">Planos</a>
+        <a class="nav-link" href="#garantia">Garantia</a>
+        <a class="nav-link" href="#duvidas">Dúvidas</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <span class="hidden text-right text-[10px] font-bold uppercase leading-tight tracking-[.1em] text-ink/40 xl:block">
+          a partir de
+          <span class="mt-1 block text-[15px] font-bold tracking-[-.01em] text-ink" data-price-min>R$ 4,99</span>
+        </span>
+        <a class="btn btn--primary js-magnetic min-h-[46px] px-4 py-2.5 text-[13px] sm:px-5 sm:text-[14px]" href="#planos" data-cta="header">
+          <span class="sm:hidden">Planos</span>
+          <span class="hidden sm:inline">Garantir acesso</span>
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="scroll-progress" data-scroll-progress aria-hidden="true"></div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero-section pb-0" aria-labelledby="hero-title">
+      <div class="container-x">
+        <div class="hero-grid">
+          <div>
+            <span class="badge-launch" data-reveal><i aria-hidden="true"></i>Lote 01 · primeira edição</span>
+            <h1 class="hero-title" id="hero-title" data-reveal style="--reveal-delay:60ms">
+              Seu dinheiro organizado em uma planilha que você <em>não vai abandonar.</em>
+            </h1>
+            <p class="lead mt-6 max-w-[48ch] sm:mt-7" data-reveal style="--reveal-delay:120ms">
+              Gastos, orçamento, metas, dívidas e patrimônio em um só arquivo. Escolha sua versão, preencha em uma tarde e mantenha com 15 minutos por semana.
+            </p>
+
+            <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center" data-reveal style="--reveal-delay:180ms">
+              <a class="btn btn--primary js-magnetic" href="#planos" data-cta="hero">
+                Escolher minha versão
+                <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a class="btn btn--ghost" href="#o-que-recebe">Ver o que vem dentro</a>
+            </div>
+
+            <p class="mt-6 text-[13.5px] font-semibold tracking-[.01em] text-muted" data-reveal style="--reveal-delay:210ms">
+              Planos a partir de <strong class="font-bold text-ink" data-price-min>R$ 4,99</strong> · pagamento único · sem mensalidade
+            </p>
+
+            <ul class="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2.5 text-[12px] font-bold uppercase tracking-[.06em] text-ink/70" data-reveal style="--reveal-delay:240ms">
+              <li class="flex items-center gap-2">
+                <svg class="h-4 w-4 text-forest" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Pagamento único
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="h-4 w-4 text-forest" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Acesso imediato
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="h-4 w-4 text-forest" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                7 dias de garantia
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" data-reveal style="--reveal-delay:160ms">
+            <a class="hero-chip hero-chip--price group" href="#planos" aria-label="Ver a versão Completa por R$ 15,99">
+              <span class="hero-chip__mark">01</span>
+              <span>
+                <small>Mais completa · melhor valor</small>
+                <strong>Completa · R$ 15,99</strong>
+              </span>
+              <svg class="ml-1 h-3.5 w-3.5 text-orange transition-transform duration-300 group-hover:translate-x-1" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <span class="hero-chip hero-chip--access">
+              <span class="hero-chip__dot" aria-hidden="true"></span>
+              <span class="hero-chip__access-label">Acesso imediato</span>
+            </span>
+            <span class="hero-chip hero-chip--bonus">
+              <span class="hero-chip__mark">+3</span>
+              <span>
+                <small>No Lote 01</small>
+                <strong>bônus inclusos</strong>
+              </span>
+            </span>
+
+            <figure class="m-0">
+              <div class="mockup" data-mockup>
+                <div class="mockup__bar">
+                  <div class="mockup__dots" aria-hidden="true"><i></i><i></i><i></i></div>
+                  <div class="mockup__tab"><i aria-hidden="true"></i>01 Finanças · Planilha Completa</div>
+                  <span class="mockup__hint">Clique nas abas</span>
+                </div>
+                <div class="mockup__formula" aria-hidden="true">
+                  <span class="mockup__cell" data-mockup-cell>C4</span>
+                  <span class="mockup__fx">fx</span>
+                  <code data-mockup-formula>=SOMA(Patrimonio!D4:D15)-SOMA(Dividas!E4:E10)</code>
+                </div>
+                <div class="mockup__body">
+                  <aside class="mockup__sidebar" aria-label="Áreas da planilha">
+                    <div class="mockup__brand"><b>01</b><span>Finanças</span></div>
+                    <nav class="mockup__nav">
+                      <button type="button" class="is-active" data-sheet-trigger="painel"><i></i>Visão geral</button>
+                      <button type="button" data-sheet-trigger="fluxo"><i></i>Fluxo mensal</button>
+                      <button type="button" data-sheet-trigger="orcamento"><i></i>Orçamento</button>
+                      <button type="button" data-sheet-trigger="metas"><i></i>Metas</button>
+                      <button type="button" data-sheet-trigger="dividas"><i></i>Dívidas</button>
+                      <button type="button" data-sheet-trigger="patrimonio"><i></i>Patrimônio</button>
+                    </nav>
+                    <div class="mockup__profile"><b>MC</b><span>Marina C.<br>Versão Completa</span></div>
+                  </aside>
+                  <div class="mockup__main">
+                    <!-- ABA 1 · PAINEL -->
+                    <div class="mockup__view is-active" data-sheet-panel="painel">
+                      <div class="mockup__head">
+                        <div><small>Aba 01 · Visão geral</small><h3>Novembro de 2026</h3></div>
+                        <span class="mockup__chip">Completa + Dinâmica</span>
+                      </div>
+                      <div class="mockup__metrics">
+                        <div class="mockup__metric mockup__metric--dark"><span>Patrimônio líquido</span><strong>R$ 148.320</strong><small>↑ 12,4% no ano</small></div>
+                        <div class="mockup__metric"><span>Receitas</span><strong>R$ 18.400</strong><small>↑ 4,2% no mês</small></div>
+                        <div class="mockup__metric"><span>Despesas</span><strong>R$ 9.730</strong><small>↓ 2,1% no mês</small></div>
+                        <div class="mockup__metric"><span>Taxa de poupança</span><strong>47%</strong><small>Meta: 30%</small></div>
+                      </div>
+                      <div class="mockup__panels">
+                        <div class="mockup__panel">
+                          <div class="mockup__panel-head"><span>Evolução do patrimônio</span><span>12 meses</span></div>
+                          <svg class="mockup__chart" viewBox="0 0 360 80" preserveAspectRatio="none" aria-hidden="true">
+                            <defs>
+                              <linearGradient id="hero-area" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0%" stop-color="#FF4D00" stop-opacity=".22"/>
+                                <stop offset="100%" stop-color="#FF4D00" stop-opacity="0"/>
+                              </linearGradient>
+                            </defs>
+                            <g stroke="#001641" stroke-opacity=".07" stroke-width="1">
+                              <line x1="0" y1="16" x2="360" y2="16"/>
+                              <line x1="0" y1="40" x2="360" y2="40"/>
+                              <line x1="0" y1="64" x2="360" y2="64"/>
+                            </g>
+                            <path d="M0 66 C18 64 28 60 46 59 S76 49 94 51 S118 46 136 41 S164 44 182 34 S210 37 228 29 S256 30 274 22 S306 24 324 16 S348 14 360 11 L360 80 L0 80 Z" fill="url(#hero-area)"/>
+                            <path d="M0 66 C18 64 28 60 46 59 S76 49 94 51 S118 46 136 41 S164 44 182 34 S210 37 228 29 S256 30 274 22 S306 24 324 16 S348 14 360 11" fill="none" stroke="#FF4D00" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="360" cy="11" r="3" fill="#FF4D00"/>
+                          </svg>
+                          <div class="mockup__axis"><span>jan</span><span>mar</span><span>mai</span><span>jul</span><span>set</span><span>nov</span></div>
+                        </div>
+                        <div class="mockup__panel">
+                          <div class="mockup__panel-head"><span>Orçamento por categoria</span><span>nov</span></div>
+                          <div class="mockup__bars">
+                            <div class="mockup__bar-row"><span>Moradia</span><div class="mockup__track"><i style="width:82%;background:#001641"></i></div><strong>32%</strong></div>
+                            <div class="mockup__bar-row"><span>Alimentação</span><div class="mockup__track"><i style="width:58%;background:#FF4D00"></i></div><strong>18%</strong></div>
+                            <div class="mockup__bar-row"><span>Transporte</span><div class="mockup__track"><i style="width:42%;background:#001641"></i></div><strong>11%</strong></div>
+                            <div class="mockup__bar-row"><span>Lazer</span><div class="mockup__track"><i style="width:28%;background:#001641;opacity:.55"></i></div><strong>9%</strong></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- ABA 2 · FLUXO MENSAL -->
+                    <div class="mockup__view" data-sheet-panel="fluxo" hidden>
+                      <div class="mockup__head">
+                        <div><small>Aba 02 · Lançamentos do mês</small><h3>Fluxo de novembro</h3></div>
+                        <span class="mockup__chip">Todas as versões</span>
+                      </div>
+                      <div class="mockup__metrics">
+                        <div class="mockup__metric mockup__metric--dark"><span>Saldo livre</span><strong>+ R$ 8.670</strong><small>47% da renda</small></div>
+                        <div class="mockup__metric"><span>Entradas</span><strong>R$ 18.400</strong><small>2 fontes</small></div>
+                        <div class="mockup__metric"><span>Saídas fixas</span><strong>R$ 6.120</strong><small>33% do mês</small></div>
+                        <div class="mockup__metric"><span>Variáveis</span><strong>R$ 3.610</strong><small>dentro da meta</small></div>
+                      </div>
+                      <div class="mockup__table" role="table" aria-label="Exemplo de lançamentos">
+                        <div class="mockup__row mockup__row--head"><span>Data</span><span>Descrição</span><span>Categoria</span><span>Valor</span></div>
+                        <div class="mockup__row"><span>05/11</span><strong>Salário líquido</strong><i class="is-in">Renda</i><b class="is-in">+ R$ 14.200</b></div>
+                        <div class="mockup__row"><span>07/11</span><strong>Aluguel + condomínio</strong><i>Moradia</i><b>− R$ 3.100</b></div>
+                        <div class="mockup__row"><span>10/11</span><strong>Supermercado mensal</strong><i>Alimentação</i><b>− R$ 1.280</b></div>
+                        <div class="mockup__row"><span>12/11</span><strong>Aporte Tesouro Selic</strong><i class="is-in">Reserva</i><b class="is-in">+ R$ 2.500</b></div>
+                      </div>
+                    </div>
+
+                    <!-- ABA 3 · ORÇAMENTO -->
+                    <div class="mockup__view" data-sheet-panel="orcamento" hidden>
+                      <div class="mockup__head">
+                        <div><small>Aba 03 · Teto por categoria</small><h3>Orçamento planejado × real</h3></div>
+                        <span class="mockup__chip">Dinâmica + Completa</span>
+                      </div>
+                      <div class="mockup__metrics">
+                        <div class="mockup__metric mockup__metric--dark"><span>Teto do mês</span><strong>R$ 11.000</strong><small>planejado</small></div>
+                        <div class="mockup__metric"><span>Gasto até hoje</span><strong>R$ 9.730</strong><small>88% utilizado</small></div>
+                        <div class="mockup__metric"><span>Folga no mês</span><strong>R$ 1.270</strong><small>disponível</small></div>
+                        <div class="mockup__metric"><span>Alertas</span><strong>1 atenção</strong><small>Lazer em 91%</small></div>
+                      </div>
+                      <div class="mockup__table">
+                        <div class="mockup__row mockup__row--head"><span>Categoria</span><span>Uso do limite</span><span>Status</span><span>Real / Meta</span></div>
+                        <div class="mockup__row"><strong>Moradia</strong><div class="mockup__track"><i style="width:78%;background:#001641"></i></div><i class="is-in">OK</i><b>R$ 3.100 / 4.000</b></div>
+                        <div class="mockup__row"><strong>Alimentação</strong><div class="mockup__track"><i style="width:68%;background:#1F6B50"></i></div><i class="is-in">OK</i><b>R$ 1.700 / 2.500</b></div>
+                        <div class="mockup__row"><strong>Transporte</strong><div class="mockup__track"><i style="width:62%;background:#001641"></i></div><i class="is-in">OK</i><b>R$ 930 / 1.500</b></div>
+                        <div class="mockup__row"><strong>Lazer</strong><div class="mockup__track"><i style="width:91%;background:#FF4D00"></i></div><i class="is-warn">91%</i><b>R$ 1.090 / 1.200</b></div>
+                      </div>
+                    </div>
+
+                    <!-- ABA 4 · METAS -->
+                    <div class="mockup__view" data-sheet-panel="metas" hidden>
+                      <div class="mockup__head">
+                        <div><small>Aba 04 · Objetivos com prazo</small><h3>Metas em andamento</h3></div>
+                        <span class="mockup__chip">Dinâmica + Completa</span>
+                      </div>
+                      <div class="mockup__metrics">
+                        <div class="mockup__metric mockup__metric--dark"><span>Total acumulado</span><strong>R$ 44.800</strong><small>em 3 metas</small></div>
+                        <div class="mockup__metric"><span>Meta total</span><strong>R$ 65.000</strong><small>69% concluído</small></div>
+                        <div class="mockup__metric"><span>Aporte mensal</span><strong>R$ 2.800</strong><small>automático</small></div>
+                        <div class="mockup__metric"><span>Próxima meta</span><strong>Mar/2027</strong><small>Reserva 100%</small></div>
+                      </div>
+                      <div class="mockup__table">
+                        <div class="mockup__row mockup__row--head"><span>Objetivo</span><span>Progresso</span><span>Prazo</span><span>Acumulado</span></div>
+                        <div class="mockup__row"><strong>Reserva de emergência</strong><div class="mockup__track"><i style="width:82%;background:#1F6B50"></i></div><i class="is-in">82%</i><b>R$ 24.600 / 30k</b></div>
+                        <div class="mockup__row"><strong>Viagem internacional</strong><div class="mockup__track"><i style="width:64%;background:#FF4D00"></i></div><i>64%</i><b>R$ 9.600 / 15k</b></div>
+                        <div class="mockup__row"><strong>Troca do carro</strong><div class="mockup__track"><i style="width:53%;background:#001641"></i></div><i>53%</i><b>R$ 10.600 / 20k</b></div>
+                      </div>
+                    </div>
+
+                    <!-- ABA 5 · DÍVIDAS -->
+                    <div class="mockup__view" data-sheet-panel="dividas" hidden>
+                      <div class="mockup__head">
+                        <div><small>Aba 05 · Plano de quitação</small><h3>Controle de dívidas e juros</h3></div>
+                        <span class="mockup__chip">Exclusivo Completa</span>
+                      </div>
+                      <div class="mockup__metrics">
+                        <div class="mockup__metric mockup__metric--dark"><span>Saldo devedor</span><strong>R$ 4.320</strong><small>↓ 54% quitado</small></div>
+                        <div class="mockup__metric"><span>Já amortizado</span><strong>R$ 5.080</strong><small>no ano</small></div>
+                        <div class="mockup__metric"><span>Parcela mensal</span><strong>R$ 720</strong><small>6x restantes</small></div>
+                        <div class="mockup__metric"><span>Quitação</span><strong>Mai/2027</strong><small>economia R$ 940</small></div>
+                      </div>
+                      <div class="mockup__table">
+                        <div class="mockup__row mockup__row--head"><span>Contrato</span><span>Juros</span><span>Prioridade</span><span>Saldo atual</span></div>
+                        <div class="mockup__row"><strong>Cartão parcelado</strong><i class="is-warn">4,9% a.m.</i><i class="is-warn">1ª Quitar</i><b>R$ 1.420</b></div>
+                        <div class="mockup__row"><strong>Empréstimo pessoal</strong><i>1,8% a.m.</i><i>2ª Quitar</i><b>R$ 2.900</b></div>
+                        <div class="mockup__row"><strong>Financiamento notebook</strong><i class="is-in">0,0% a.m.</i><i class="is-in">Quitado</i><b>R$ 0</b></div>
+                      </div>
+                    </div>
+
+                    <!-- ABA 6 · PATRIMÔNIO -->
+                    <div class="mockup__view" data-sheet-panel="patrimonio" hidden>
+                      <div class="mockup__head">
+                        <div><small>Aba 06 · Bens, reserva e carteira</small><h3>Patrimônio e investimentos</h3></div>
+                        <span class="mockup__chip">Exclusivo Completa</span>
+                      </div>
+                      <div class="mockup__metrics">
+                        <div class="mockup__metric mockup__metric--dark"><span>Patrimônio líquido</span><strong>R$ 148.320</strong><small>+R$ 16.400 no ano</small></div>
+                        <div class="mockup__metric"><span>Reserva líquida</span><strong>R$ 24.600</strong><small>6,2 meses</small></div>
+                        <div class="mockup__metric"><span>Investimentos</span><strong>R$ 78.720</strong><small>Renda fixa + FIIs</small></div>
+                        <div class="mockup__metric"><span>Bens / imobilizado</span><strong>R$ 45.000</strong><small>atualizado</small></div>
+                      </div>
+                      <div class="mockup__table">
+                        <div class="mockup__row mockup__row--head"><span>Classe</span><span>Alocação</span><span>Liquidez</span><span>Saldo</span></div>
+                        <div class="mockup__row"><strong>Tesouro Selic / CDB DI</strong><div class="mockup__track"><i style="width:52%;background:#1F6B50"></i></div><i class="is-in">Diária</i><b>R$ 54.200</b></div>
+                        <div class="mockup__row"><strong>IPCA+ e Previdência</strong><div class="mockup__track"><i style="width:28%;background:#001641"></i></div><i>Longo prazo</i><b>R$ 29.120</b></div>
+                        <div class="mockup__row"><strong>Fundos Imobiliários + ETFs</strong><div class="mockup__track"><i style="width:20%;background:#FF4D00"></i></div><i>D+2</i><b>R$ 20.000</b></div>
+                      </div>
+                    </div>
+
+                    <div class="mockup__sheets" role="tablist" aria-label="Abas da planilha">
+                      <button type="button" class="mockup__sheet is-active" role="tab" aria-selected="true" data-sheet-trigger="painel">Painel</button>
+                      <button type="button" class="mockup__sheet" role="tab" aria-selected="false" data-sheet-trigger="fluxo">Fluxo</button>
+                      <button type="button" class="mockup__sheet" role="tab" aria-selected="false" data-sheet-trigger="orcamento">Orçamento</button>
+                      <button type="button" class="mockup__sheet" role="tab" aria-selected="false" data-sheet-trigger="metas">Metas</button>
+                      <button type="button" class="mockup__sheet" role="tab" aria-selected="false" data-sheet-trigger="dividas">Dívidas</button>
+                      <button type="button" class="mockup__sheet" role="tab" aria-selected="false" data-sheet-trigger="patrimonio">Patrimônio</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <figcaption class="hero-visual__note">Clique nas abas acima para testar a planilha. Valores ilustrativos.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="ticker" aria-label="O que está incluído">
+        <div class="ticker__track">
+          <div class="ticker__group">
+            <span class="ticker__item">Painel automático</span>
+            <span class="ticker__item">Fluxo mensal</span>
+            <span class="ticker__item">Orçamento por categoria</span>
+            <span class="ticker__item">Metas com progresso</span>
+            <span class="ticker__item">Dívidas e patrimônio</span>
+            <span class="ticker__item">Excel · Google Sheets · Numbers</span>
+            <span class="ticker__item">Acesso imediato</span>
+            <span class="ticker__item">7 dias de garantia</span>
+          </div>
+          <div class="ticker__group" aria-hidden="true">
+            <span class="ticker__item">Painel automático</span>
+            <span class="ticker__item">Fluxo mensal</span>
+            <span class="ticker__item">Orçamento por categoria</span>
+            <span class="ticker__item">Metas com progresso</span>
+            <span class="ticker__item">Dívidas e patrimônio</span>
+            <span class="ticker__item">Excel · Google Sheets · Numbers</span>
+            <span class="ticker__item">Acesso imediato</span>
+            <span class="ticker__item">7 dias de garantia</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section border-b border-line" id="o-que-recebe" aria-labelledby="recebe-title">
+      <div class="container-x">
+        <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between" data-reveal>
+          <div class="max-w-[720px]">
+            <span class="kicker">01 — O que você recebe</span>
+            <h2 class="section-title mt-6" id="recebe-title">Uma planilha. Seis áreas do seu dinheiro.</h2>
+            <p class="lead mt-5 max-w-[58ch]">Em vez de planilhas soltas e apps que não conversam, você lança uma vez e tudo se atualiza junto — em 15 minutos por semana.</p>
+          </div>
+          <a class="btn btn--ghost hidden lg:inline-flex" href="#planos">Comparar versões
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+        <div class="feature-grid mt-10">
+          <article class="feature-card feature-card--panel spotlight" data-reveal>
+            <div class="feature-card__head">
+              <div>
+                <span class="feature-card__tag">Dinâmica + Completa</span>
+                <h3>Painel 01</h3>
+              </div>
+              <span class="feature-card__index">01</span>
+            </div>
+            <p>Saldo, taxa de poupança e evolução do patrimônio em uma tela. Sem procurar em cinco abas.</p>
+            <div class="fv-panel" aria-hidden="true">
+              <div class="fv-panel__head"><span>Novembro de 2026</span><i>ao vivo</i></div>
+              <div class="fv-panel__metrics">
+                <div><small>Saldo do mês</small><strong>R$ 8.670</strong></div>
+                <div><small>Taxa de poupança</small><strong>47%</strong></div>
+              </div>
+              <svg class="fv-chart" viewBox="0 0 420 96" preserveAspectRatio="none" aria-hidden="true">
+                <defs>
+                  <linearGradient id="fv-area" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#FF4D00" stop-opacity=".24"/>
+                    <stop offset="100%" stop-color="#FF4D00" stop-opacity="0"/>
+                  </linearGradient>
+                </defs>
+                <g stroke="#001641" stroke-opacity=".08" stroke-width="1">
+                  <line x1="0" y1="24" x2="420" y2="24"/>
+                  <line x1="0" y1="52" x2="420" y2="52"/>
+                  <line x1="0" y1="80" x2="420" y2="80"/>
+                </g>
+                <path d="M0 80 C28 78 42 70 70 71 S112 58 140 60 S182 50 210 42 S252 48 280 34 S322 38 350 24 S394 20 420 12 L420 96 L0 96 Z" fill="url(#fv-area)"/>
+                <path d="M0 80 C28 78 42 70 70 71 S112 58 140 60 S182 50 210 42 S252 48 280 34 S322 38 350 24 S394 20 420 12" fill="none" stroke="#FF4D00" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="420" cy="12" r="4" fill="#FF4D00"/>
+              </svg>
+            </div>
+          </article>
+
+          <article class="feature-card feature-card--flow spotlight" data-reveal style="--reveal-delay:70ms">
+            <div class="feature-card__head">
+              <div>
+                <span class="feature-card__tag">Todas as versões</span>
+                <h3>Fluxo mensal</h3>
+              </div>
+              <span class="feature-card__index">02</span>
+            </div>
+            <p>Receitas e despesas com categorias. O saldo do mês se atualiza sozinho.</p>
+            <div class="fv-flow" aria-hidden="true">
+              <div><span class="fv-dot fv-dot--in"></span><span>Salário</span><strong>+ R$ 8.400</strong></div>
+              <div><span class="fv-dot fv-dot--out"></span><span>Moradia</span><strong>− R$ 2.300</strong></div>
+              <div><span class="fv-dot fv-dot--out"></span><span>Mercado</span><strong>− R$ 780</strong></div>
+              <div><span class="fv-dot fv-dot--out"></span><span>Transporte</span><strong>− R$ 320</strong></div>
+            </div>
+          </article>
+
+          <article class="feature-card spotlight" data-reveal>
+            <div class="feature-card__head">
+              <div>
+                <span class="feature-card__tag">Dinâmica + Completa</span>
+                <h3>Orçamento</h3>
+              </div>
+              <span class="feature-card__index">03</span>
+            </div>
+            <p>Defina limites por categoria e veja o que está estourando antes de estourar.</p>
+            <div class="fv-budget" aria-hidden="true">
+              <div><span>Moradia</span><div class="fv-track"><i style="width:72%"></i></div><b>72%</b></div>
+              <div><span>Alimentação</span><div class="fv-track"><i style="width:54%"></i></div><b>54%</b></div>
+              <div><span>Lazer</span><div class="fv-track fv-track--warn"><i style="width:91%"></i></div><b>91%</b></div>
+            </div>
+          </article>
+
+          <article class="feature-card spotlight" data-reveal style="--reveal-delay:60ms">
+            <div class="feature-card__head">
+              <div>
+                <span class="feature-card__tag">Dinâmica + Completa</span>
+                <h3>Metas</h3>
+              </div>
+              <span class="feature-card__index">04</span>
+            </div>
+            <p>Valor, prazo e progresso de cada objetivo. Sem planilha paralela.</p>
+            <div class="fv-goal" aria-hidden="true">
+              <svg viewBox="0 0 72 72">
+                <circle cx="36" cy="36" r="29" fill="none" stroke="#001641" stroke-opacity=".1" stroke-width="7"/>
+                <circle cx="36" cy="36" r="29" fill="none" stroke="#FF4D00" stroke-width="7" stroke-linecap="round" stroke-dasharray="182" stroke-dashoffset="58" transform="rotate(-90 36 36)"/>
+              </svg>
+              <div><small>Reserva de emergência</small><strong>68%</strong><span>R$ 6.800 de R$ 10.000</span></div>
+            </div>
+          </article>
+
+          <article class="feature-card spotlight" data-reveal style="--reveal-delay:120ms">
+            <div class="feature-card__head">
+              <div>
+                <span class="feature-card__tag">Completa</span>
+                <h3>Dívidas</h3>
+              </div>
+              <span class="feature-card__index">05</span>
+            </div>
+            <p>Saldo devedor, juros e ordem de quitação para sair do vermelho com plano.</p>
+            <div class="fv-debt" aria-hidden="true">
+              <div><span>Saldo devedor</span><strong>R$ 4.320</strong></div>
+              <div class="fv-track fv-track--dark"><i style="width:46%"></i></div>
+              <small>46% quitado · previsão jun/2027</small>
+            </div>
+          </article>
+
+          <article class="feature-card spotlight" data-reveal style="--reveal-delay:180ms">
+            <div class="feature-card__head">
+              <div>
+                <span class="feature-card__tag">Completa</span>
+                <h3>Patrimônio + reserva</h3>
+              </div>
+              <span class="feature-card__index">06</span>
+            </div>
+            <p>Bens, investimentos e reserva de emergência em uma visão só.</p>
+            <div class="fv-wealth" aria-hidden="true">
+              <div><span>Patrimônio líquido</span><strong>R$ 148.320</strong></div>
+              <svg viewBox="0 0 200 42" preserveAspectRatio="none">
+                <path d="M0 36 C18 34 26 28 44 29 S68 22 86 23 S110 16 128 18 S152 10 170 12 S190 6 200 4" fill="none" stroke="#1F6B50" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </article>
+        </div>
+
+        <p class="mt-4 text-[11.5px] leading-relaxed text-muted/70" data-reveal>Telas e valores ilustrativos. A versão Básica inclui fluxo mensal, saldo automático e planejamento anual.</p>
+
+        <div class="compat-strip" data-reveal>
+          <span class="compat-item"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2.5 4 5v4.5c0 3.6 2.4 6.5 6 8 3.6-1.5 6-4.4 6-8V5l-6-2.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="m7.2 9.8 1.8 1.8 3.6-3.8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Excel, Google Sheets e Numbers</span>
+          <span class="compat-item"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M6 3.5h8a1.5 1.5 0 0 1 1.5 1.5v10A1.5 1.5 0 0 1 14 16.5H6A1.5 1.5 0 0 1 4.5 15V5A1.5 1.5 0 0 1 6 3.5Z" stroke="currentColor" stroke-width="1.5"/><path d="M7.5 7h5M7.5 10h5M7.5 13h3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>Arquivo pronto, sem fórmula para montar</span>
+          <span class="compat-item"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v8m0 0 3-3m-3 3L7 8M4 15.5h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Atualizações da versão 2.x inclusas</span>
+        </div>
+
+        <div class="bonus-band" data-reveal>
+          <div class="bonus-band__head">
+            <div class="bonus-band__stamp">Bônus<br>Lote 01</div>
+            <div class="bonus-band__copy">
+              <h3>Três bônus para tirar a planilha do papel.</h3>
+              <p>Inclusos na versão Completa enquanto o Lote 01 estiver aberto.</p>
+            </div>
+            <a class="btn btn--primary shrink-0" href="#planos" data-cta="bonus">Quero a Completa
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+          <div class="bonus-grid">
+            <article class="bonus-item">
+              <span class="bonus-item__num">01</span>
+              <div>
+                <h4>Guia Método 01</h4>
+                <p>Os 7 passos para colocar a planilha para rodar na primeira semana.</p>
+              </div>
+            </article>
+            <article class="bonus-item">
+              <span class="bonus-item__num">02</span>
+              <div>
+                <h4>Ritual semanal</h4>
+                <p>Um checklist de 15 minutos para manter tudo atualizado sem virar segunda jornada.</p>
+              </div>
+            </article>
+            <article class="bonus-item">
+              <span class="bonus-item__num">03</span>
+              <div>
+                <h4>Roteiro de 30 dias</h4>
+                <p>O que fazer na primeira semana, no primeiro fechamento e no primeiro mês.</p>
+              </div>
+            </article>
+          </div>
+          <p class="bonus-band__note">Bônus digitais entregues junto com o acesso. Sem custo extra.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section border-b border-line bg-paper" id="planos" aria-labelledby="planos-title">
+      <div class="container-x">
+        <div class="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between" data-reveal>
+          <div class="max-w-[680px]">
+            <span class="kicker">02 — Planos</span>
+            <h2 class="section-title mt-6" id="planos-title">Escolha sua versão. Comece hoje.</h2>
+            <p class="lead mt-5 max-w-[56ch]">Quanto mais completa, mais áreas do seu dinheiro entram no mesmo sistema. Todas com acesso imediato e 7 dias de garantia.</p>
+          </div>
+          <div class="launch-pill">
+            <span class="launch-pill__label"><i aria-hidden="true"></i>Lote 01 encerra em</span>
+            <span class="countdown countdown--light" data-countdown aria-label="Tempo restante da condição de lançamento">
+              <span class="countdown__part"><b data-days>00</b><span>d</span></span>
+              <span class="countdown__sep">:</span>
+              <span class="countdown__part"><b data-hours>00</b><span>h</span></span>
+              <span class="countdown__sep">:</span>
+              <span class="countdown__part"><b data-minutes>00</b><span>min</span></span>
+              <span class="countdown__sep">:</span>
+              <span class="countdown__part"><b data-seconds>00</b><span>s</span></span>
+            </span>
+            <span class="countdown-expired" data-countdown-expired>Oferta encerrada</span>
+          </div>
+        </div>
+
+        <div class="plans-grid mt-10 lg:mt-12">
+          <!-- PLANO 1 · BÁSICA -->
+          <article class="plan-card spotlight order-2 lg:order-1" data-reveal>
+            <div class="plan-card__top">
+              <div class="plan-card__meta">
+                <span class="plan-card__tag">Para começar</span>
+                <span class="plan-card__scope">2 abas</span>
+              </div>
+              <h3>01 Básica</h3>
+              <p>Para sair do zero e enxergar entradas, saídas e saldo do mês sem curva de aprendizado.</p>
+            </div>
+
+            <div class="plan-card__price">
+              <p class="plan-price" data-plan-price="basica"><span class="plan-price__currency">R$</span><span class="plan-price__number">4</span><span class="plan-price__cents">,99</span></p>
+              <p class="plan-card__payment">pagamento único · acesso imediato</p>
+            </div>
+
+            <a class="btn btn--ghost btn--block plan-card__cta" href="#planos" data-cta="plan-basica" data-checkout="basica">
+              Quero a Básica
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+
+            <div class="plan-card__divider"></div>
+
+            <p class="plan-card__label">Inclui na Básica</p>
+            <ul class="plan-list">
+              <li><span class="plan-list__tick"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Controle de receitas e despesas</li>
+              <li><span class="plan-list__tick"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Saldo automático do mês</li>
+              <li><span class="plan-list__tick"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Planejamento anual simples</li>
+              <li><span class="plan-list__tick"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Categorias essenciais prontas</li>
+              <li><span class="plan-list__tick"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Excel, Google Sheets e Numbers</li>
+            </ul>
+          </article>
+
+          <!-- PLANO 2 · DINÂMICA -->
+          <article class="plan-card spotlight order-3 lg:order-2" data-reveal style="--reveal-delay:70ms">
+            <div class="plan-card__top">
+              <div class="plan-card__meta">
+                <span class="plan-card__tag">Para criar constância</span>
+                <span class="plan-card__scope">4 abas</span>
+              </div>
+              <h3>01 Dinâmica</h3>
+              <p>O painel visual que transforma lançamentos em orçamento por categoria e metas claras.</p>
+            </div>
+
+            <div class="plan-card__price">
+              <p class="plan-price" data-plan-price="dinamica"><span class="plan-price__currency">R$</span><span class="plan-price__number">9</span><span class="plan-price__cents">,99</span></p>
+              <p class="plan-card__payment">pagamento único · acesso imediato</p>
+            </div>
+
+            <a class="btn btn--dark btn--block plan-card__cta" href="#planos" data-cta="plan-dinamica" data-checkout="dinamica">
+              Quero a Dinâmica
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+
+            <div class="plan-card__divider"></div>
+
+            <p class="plan-card__label">Tudo da Básica +</p>
+            <ul class="plan-list">
+              <li><span class="plan-list__tick"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Painel 01</strong> visual automático</span></li>
+              <li><span class="plan-list__tick"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Orçamento com teto por categoria</span></li>
+              <li><span class="plan-list__tick"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Metas com prazo e progresso</span></li>
+              <li><span class="plan-list__tick"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Relatórios mensais comparativos</span></li>
+              <li><span class="plan-list__tick"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Biblioteca completa de categorias</span></li>
+            </ul>
+          </article>
+
+          <!-- PLANO 3 · COMPLETA (RECOMENDADO) -->
+          <article class="plan-card plan-card--featured spotlight order-1 lg:order-3" data-reveal style="--reveal-delay:120ms">
+            <div class="plan-card__top">
+              <div class="plan-card__meta">
+                <span class="plan-card__flag">Recomendado</span>
+                <span class="plan-card__scope plan-card__scope--featured">6 abas + 3 bônus</span>
+              </div>
+              <h3>01 Completa</h3>
+              <p>O sistema inteiro: painel, orçamento, metas, dívidas, patrimônio e os 3 bônus do Lote 01.</p>
+            </div>
+
+            <div class="plan-card__price">
+              <p class="plan-price" data-plan-price="completa"><span class="plan-price__currency">R$</span><span class="plan-price__number">15</span><span class="plan-price__cents">,99</span></p>
+              <p class="plan-card__payment">pagamento único · menos de R$ 0,05 por dia no 1º ano</p>
+            </div>
+
+            <a class="btn btn--primary btn--block plan-card__cta js-magnetic" href="#planos" data-cta="plan-completa" data-checkout="completa">
+              Quero a Completa
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+
+            <div class="plan-card__divider"></div>
+
+            <p class="plan-card__label">Tudo da Dinâmica +</p>
+            <ul class="plan-list">
+              <li><span class="plan-list__tick"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Controle de dívidas</strong> e ordem de quitação</span></li>
+              <li><span class="plan-list__tick"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Patrimônio</strong>, investimentos e reserva</span></li>
+              <li><span class="plan-list__tick"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Guia Método 01 <span class="plan-list__bonus">bônus</span></span></li>
+              <li><span class="plan-list__tick"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Ritual semanal + Roteiro 30d <span class="plan-list__bonus">bônus</span></span></li>
+              <li><span class="plan-list__tick"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Atualizações 2.x + suporte por e-mail</span></li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="mt-6 text-[12px] leading-relaxed text-muted/80">Pagamento único · acesso imediato no e-mail · 7 dias de garantia. Condição do Lote 01 válida até <strong class="text-ink" data-launch-date>30/11/2026</strong>.</p>
+      </div>
+    </section>
+
+    <section class="guarantee-band" id="garantia" aria-labelledby="garantia-title">
+      <div class="container-x relative z-10 grid items-center gap-10 lg:grid-cols-[1.12fr_.88fr] lg:gap-16">
+        <div data-reveal>
+          <span class="kicker kicker--light">03 — Risco zero</span>
+          <h2 class="section-title mt-6 max-w-[19ch] text-ivory" id="garantia-title">Teste por 7 dias. Se não fizer sentido, devolvemos.</h2>
+          <p class="mt-7 max-w-[60ch] text-[16px] leading-[1.8] text-ivory/90">
+            Esta é a primeira edição do 01 Finanças. Em vez de encher a página com provas que ainda não temos, preferimos deixar você usar. Se a planilha não encaixar na sua rotina, é só pedir o reembolso integral em até 7 dias.
+          </p>
+          <ul class="mt-8 flex flex-wrap gap-x-7 gap-y-3.5 text-[13px] font-semibold text-ivory">
+            <li class="flex items-center gap-2"><span class="grid h-5 w-5 place-items-center rounded-full bg-orange text-white"><svg class="h-2.5 w-2.5" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Reembolso integral</li>
+            <li class="flex items-center gap-2"><span class="grid h-5 w-5 place-items-center rounded-full bg-orange text-white"><svg class="h-2.5 w-2.5" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Sem justificativa</li>
+            <li class="flex items-center gap-2"><span class="grid h-5 w-5 place-items-center rounded-full bg-orange text-white"><svg class="h-2.5 w-2.5" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Suporte por e-mail</li>
+          </ul>
+          <a class="link-underline mt-9 inline-flex text-ivory" href="#planos" data-cta="guarantee">Começar sem risco
+            <svg class="h-3.5 w-3.5 text-orange" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+        <div class="flex justify-center lg:justify-center" data-reveal style="--reveal-delay:120ms">
+          <div class="seal" aria-label="Garantia incondicional de 7 dias">
+            <span class="seal__ring" aria-hidden="true"></span>
+            <svg class="seal__svg" viewBox="0 0 200 200" aria-hidden="true">
+              <defs>
+                <path id="seal-circle" d="M100,100 m-76,0 a76,76 0 1,1 152,0 a76,76 0 1,1 -152,0"/>
+              </defs>
+              <text>
+                <textPath href="#seal-circle" startOffset="0">GARANTIA INCONDICIONAL · 7 DIAS · COMPRA SEGURA ·</textPath>
+              </text>
+            </svg>
+            <div class="seal__center">
+              <div>
+                <strong>7</strong>
+                <span>dias de garantia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section border-b border-line bg-paper" id="duvidas" aria-labelledby="faq-title">
+      <div class="container-x">
+        <div class="grid gap-10 lg:grid-cols-[.75fr_1.25fr] lg:gap-20">
+          <div class="self-start lg:sticky lg:top-28" data-reveal>
+            <span class="kicker">04 — Dúvidas</span>
+            <h2 class="section-title mt-6" id="faq-title">Dúvidas rápidas.</h2>
+            <p class="lead mt-5 max-w-[36ch]">O essencial antes de escolher a sua versão.</p>
+            <p class="mt-6 text-[13.5px] leading-relaxed text-muted">Ainda ficou alguma dúvida?</p>
+            <a class="link-underline mt-2" href="mailto:contato@01financas.com.br" data-support-link>contato@01financas.com.br
+              <svg class="h-3.5 w-3.5 text-orange" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+
+          <div data-reveal style="--reveal-delay:80ms">
+            <details class="faq-item" open>
+              <summary>Qual versão escolher?<span class="faq-item__icon" aria-hidden="true"></span></summary>
+              <div class="faq-item__body"><p>A <strong>Básica (R$ 4,99)</strong> organiza receitas, despesas e saldo do mês. A <strong>Dinâmica (R$ 9,99)</strong> adiciona painel visual, orçamento e metas. A <strong>Completa (R$ 15,99)</strong> inclui dívidas, patrimônio, reserva e os 3 bônus do Lote 01.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary>Preciso saber Excel ou funciona no celular?<span class="faq-item__icon" aria-hidden="true"></span></summary>
+              <div class="faq-item__body"><p>Não precisa saber fórmulas: a planilha já vem pronta para Excel, Google Sheets e Numbers. Recomendamos configurar no computador e usar o celular para consultar e acompanhar metas.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary>Como recebo o acesso? É pagamento único?<span class="faq-item__icon" aria-hidden="true"></span></summary>
+              <div class="faq-item__body"><p>Sim, pagamento único — sem mensalidade. O acesso chega no seu e-mail assim que o pagamento é confirmado (Pix e cartão liberam na hora).</p></div>
+            </details>
+            <details class="faq-item">
+              <summary>E se eu não gostar?<span class="faq-item__icon" aria-hidden="true"></span></summary>
+              <div class="faq-item__body"><p>Você tem 7 dias corridos para pedir o reembolso integral por e-mail, sem precisar justificar.</p></div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta final-cta--orange" id="comecar" aria-labelledby="final-title">
+      <span class="watermark" aria-hidden="true">01</span>
+      <div class="container-x relative z-10">
+        <div class="mx-auto max-w-[820px] text-center" data-reveal>
+          <span class="kicker justify-center">Lote 01 · encerra em <span data-launch-date>30/11/2026</span></span>
+          <h2 class="mx-auto mt-7 max-w-[16ch] font-display text-[clamp(2.5rem,4.9vw,4rem)] font-[420] leading-[1.01] tracking-[-.04em]" id="final-title">
+            Seu próximo mês pode começar com clareza.
+          </h2>
+          <p class="mx-auto mt-6 max-w-[52ch] text-[16px] leading-[1.75] text-[#FFF8F0] sm:text-[17px]">
+            Escolha sua versão, receba o acesso imediato e organize o mês atual hoje. A partir de R$ 4,99, pagamento único.
+          </p>
+
+          <div class="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
+            <a class="btn btn--dark js-magnetic" href="#planos" data-cta="final" data-checkout="completa">
+              Quero a Completa por <span data-price-inline="completa">R$ 15,99</span>
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="inline-flex items-center gap-2 border-b border-[#FFF8F0]/45 pb-1 text-[14px] font-bold text-[#FFF8F0] transition-colors hover:border-[#FFF8F0]" href="#planos">Ver as outras versões</a>
+          </div>
+
+          <div class="final-cta__prices mt-7">
+            <span>Básica <b data-price-inline="basica">R$ 4,99</b></span>
+            <span>Dinâmica <b data-price-inline="dinamica">R$ 9,99</b></span>
+            <span>Completa <b data-price-inline="completa">R$ 15,99</b></span>
+          </div>
+
+          <p class="mt-5 text-[11.5px] font-bold uppercase tracking-[.08em] text-[#FFF8F0]">Pagamento único · acesso imediato · 7 dias de garantia</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-line bg-ivory">
+    <div class="container-x py-10 sm:py-12">
+      <div class="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
+        <div>
+          <a class="inline-flex" href="#topo" aria-label="01 Finanças — voltar ao início">
+            <img src="assets/img/logo-01-financas.webp" width="760" height="202" alt="01 Finanças" class="w-[160px]" loading="lazy">
+          </a>
+          <p class="mt-4 max-w-[34ch] text-[13.5px] leading-relaxed text-muted">Clareza financeira em uma planilha. Simples de configurar, difícil de abandonar.</p>
+        </div>
+        <nav class="flex flex-wrap gap-x-6 gap-y-3" aria-label="Navegação do rodapé">
+          <a class="footer-link" href="#o-que-recebe">O que você recebe</a>
+          <a class="footer-link" href="#planos">Planos</a>
+          <a class="footer-link" href="#garantia">Garantia</a>
+          <a class="footer-link" href="#duvidas">Dúvidas</a>
+          <a class="footer-link" href="termos.html">Termos</a>
+          <a class="footer-link" href="privacidade.html">Privacidade</a>
+          <a class="footer-link" href="mailto:contato@01financas.com.br" data-support-link>Contato</a>
+        </nav>
+      </div>
+
+      <div class="mt-8 border-t border-line pt-6">
+        <p class="max-w-[110ch] text-[12px] leading-[1.7] text-muted/75">
+          O 01 Finanças é um produto de organização e educação financeira. Não constitui recomendação de investimento, consultoria financeira individual ou promessa de rentabilidade. Telas e valores apresentados são ilustrativos. Resultados variam conforme renda, dívidas, contexto e decisões de cada pessoa. Preços de lançamento podem ser reajustados após o período informado. Os bônus fazem parte da oferta do Lote 01.
+        </p>
+        <div class="mt-5 flex flex-col justify-between gap-2 border-t border-line/70 pt-5 sm:flex-row sm:items-center">
+          <p class="text-[12px] text-muted/65">© <span data-year>2026</span> 01 Finanças. Todos os direitos reservados.</p>
+          <div class="flex flex-wrap items-center gap-4 text-[12px] text-muted/65">
+            <span>Feito no Brasil</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="sticky-cta" data-sticky-cta>
+    <div class="sticky-cta__inner">
+      <div>
+        <p class="text-[9.5px] font-bold uppercase tracking-[.1em] text-ink/45">Planos a partir de</p>
+        <p class="mt-0.5 text-[17px] font-bold tracking-[-.02em] text-ink" data-price-min>R$ 4,99</p>
+      </div>
+      <a class="btn btn--primary" href="#planos" data-cta="sticky">
+        Ver planos
+        <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Prova social: popup de pessoas comprando a planilha -->
+  <aside class="social-proof" data-social-proof hidden aria-live="polite" aria-label="Atividade recente de compra">
+    <button class="social-proof__close" type="button" data-social-proof-close aria-label="Fechar aviso de compra">×</button>
+    <span class="social-proof__icon" data-sp-icon aria-hidden="true">
+      <svg viewBox="0 0 20 20" fill="none"><path d="m4 10.5 3.5 3L16 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span>
+    <div class="social-proof__body">
+      <p data-sp-text><strong data-sp-name>Marina S.</strong> comprou a <b data-sp-plan>01 Completa</b></p>
+      <span data-sp-meta>São Paulo, SP · há 3 min</span>
+    </div>
+  </aside>
+
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

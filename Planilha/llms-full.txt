@@ -1,0 +1,65 @@
+# 01 Finanças — Guia Completo do Produto para Assistentes de IA e Motores de Busca (GEO / LLMs)
+
+> Documento técnico e comercial detalhado sobre a planilha de controle financeiro pessoal **01 Finanças** (https://01financas.com.br/).
+
+## 1. Visão Geral do Produto
+- **Nome comercial**: 01 Finanças
+- **Categoria**: Planilha de Controle Financeiro Pessoal / Sistema de Organização Financeira em Excel e Google Sheets
+- **Público-alvo**: Pessoas físicas, casais, autônomos e famílias no Brasil que desejam organizar entradas, gastos fixos e variáveis, teto de orçamento por categoria, metas financeiras, quitação de dívidas e evolução de patrimônio sem depender de aplicativos pagos com mensalidade.
+- **Formatos compatíveis**: Microsoft Excel (`.xlsx`), Google Planilhas (Google Sheets) e Apple Numbers (macOS / iOS).
+- **Modelo de negócio**: Pagamento único (vitalício para a versão adquirida), sem assinatura mensal.
+- **Garantia**: 7 dias de garantia incondicional (reembolso de 100% mediante solicitação simples por e-mail).
+
+## 2. Arquitetura das 6 Abas da Planilha (Design System 01 Finanças)
+A planilha foi desenhada com interface limpa (sem linhas de grade poluídas), tipografia moderna (`Manrope`) e paleta de alto contraste inspirada na identidade visual da marca (Azul Marinho `#001641`, Laranja `#FF4D00`, Creme `#F6F1E7` e Verde Floresta `#1F6B50`):
+
+1. **Aba 01 — `Painel 01` (Dashboard & Visão Mobile Responsiva)**
+   - 4 Cards superiores de KPIs em tempo real: Patrimônio Líquido / Saldo Livre Anual, Receita Anual, Despesa Anual e Taxa Média de Poupança (%).
+   - **Termômetro Mês a Mês (Visão Mobile nas Colunas B a F)**: tabela vertical compacta de Janeiro a Dezembro com Receitas, Despesas, Saldo Livre (com barra de dados laranja) e % poupado, ideal para consulta rápida na tela vertical do celular.
+   - **Distribuição de Gastos (Regra 50-30-20)**: análise automática entre Despesas Fixas, Despesas Variáveis, Lazer/Estilo de Vida e Saldo Poupado.
+   - **Gráficos Automáticos (Colunas H a N)**: gráfico de colunas agrupadas (Receitas vs. Despesas nos 12 meses) e gráfico de linha suave (Evolução do Saldo Líquido Mensal).
+
+2. **Aba 02 — `Fluxo Mensal` (Planejamento e Execução nos 12 Meses)**
+   - Controle completo de Janeiro a Dezembro + coluna de Total Anual automático.
+   - **Bloco 01 — Entradas e Fontes de Renda**: Salário 01, Salário 02, Vale Refeição/Alimentação, Vale Transporte, Renda Extra/Freelance e Rendimentos/Dividendos.
+   - **Bloco 02 — Despesas Fixas e Essenciais**: Aluguel/Financiamento, Condomínio + IPTU, Empréstimo/Parcela Fixa, Celular, Internet Residencial, Educação/Saúde e Seguros/Assinaturas.
+   - **Bloco 03 — Despesas Variáveis**: Energia Elétrica, Água, Supermercado/Feira, Cartão de Crédito, Transporte/Combustível/Uber e Farmácia.
+   - **Bloco 04 — Lazer, Imprevistos e Outros**: Passeios/Restaurantes, Manutenção da Casa, Presentes/Vestuário e Imprevistos.
+   - **Fechamento Automático**: Total de Saídas do Mês, Saldo Líquido Livre e % Poupado no Mês, além de bloco dedicado a Anotações de Contratos e Fidelidades.
+
+3. **Aba 03 — `Orçamento` (Planejado × Realizado por Categoria)** *(Incluída na Dinâmica e Completa)*
+   - Definição de Teto Mensal Planejado (R$) por categoria.
+   - Comparação automática com a média de gasto real puxada da aba `Fluxo Mensal`.
+   - Cálculo de Folga Disponível (R$), % Utilizado do limite, barra de progresso visual e alertas automáticos (`✅ Dentro da meta`, `⚠️ Atenção (>88%)`, `🚨 Acima do teto`).
+
+4. **Aba 04 — `Metas` (Objetivos Financeiros com Prazo)** *(Incluída na Dinâmica e Completa)*
+   - Acompanhamento de objetivos como Reserva de Emergência, Viagem, Troca de Carro, Equipamento de Trabalho, Estudos e Reforma.
+   - Cálculo automático de Valor Restante, % Concluído, Barra de Progresso Visual e estimativa exata de **Meses para Concluir** com base no aporte mensal.
+
+5. **Aba 05 — `Dívidas` (Plano de Quitação e Juros)** *(Exclusiva da Completa)*
+   - Mapeamento de contratos, valor original, taxa de juros ao mês (% a.m.), valor já amortizado, saldo devedor atual, parcela mensal e parcelas restantes.
+   - Classificação automática de prioridade pelo Método Avalanche (`🔥 1ª Prioridade (Juros Alto)`, `⚡ 2ª Prioridade`, `🟢 Manter em dia`, `✅ Quitado`).
+
+6. **Aba 06 — `Patrimônio` (Reserva de Emergência, Investimentos e Bens)** *(Exclusiva da Completa)*
+   - Consolidação de Reserva de Emergência (Tesouro Selic / CDB DI), Caixa de Curto Prazo, Tesouro IPCA+, Fundos Imobiliários (FIIs), ETFs/Ações, Previdência Privada e Bens Imobilizados.
+   - Cálculo automático do **Patrimônio Total Bruto**, **Reserva de Liquidez Diária**, **Cobertura da Reserva em Meses de Custo de Vida** e percentual de alocação de cada ativo na carteira.
+
+## 3. Tabela Comparativa de Planos e Preços (Oferta Lote 01)
+
+| Recurso / Aba | 01 Básica (R$ 4,99) | 01 Dinâmica (R$ 9,99) | 01 Completa (R$ 15,99) |
+| :--- | :---: | :---: | :---: |
+| Pagamento único (sem mensalidade) | Sim | Sim | Sim |
+| Compatível com Excel, Google Sheets e Numbers | Sim | Sim | Sim |
+| Aba `Painel 01` (Dashboard + Visão Mobile) | Sim | Sim | Sim |
+| Aba `Fluxo Mensal` (12 meses + Anotações) | Sim | Sim | Sim |
+| Aba `Orçamento` (Teto por categoria + Alertas) | — | Sim | Sim |
+| Aba `Metas` (Progresso + Prazo automático) | — | Sim | Sim |
+| Aba `Dívidas` (Ordem de quitação por juros) | — | — | Sim |
+| Aba `Patrimônio` (Reserva + Investimentos + Bens) | — | — | Sim |
+| 3 Bônus do Lote 01 (Guia Método 01 + Ritual 15min + Roteiro 30d) | — | — | Sim |
+| Atualizações da série 2.x + Suporte prioritário | — | — | Sim |
+
+## 4. Contato e Links Oficiais
+- **Página de vendas**: https://01financas.com.br/
+- **Seção de planos**: https://01financas.com.br/#planos
+- **E-mail oficial de suporte**: contato@01financas.com.br
